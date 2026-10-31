@@ -1,7 +1,7 @@
 # Local Business Intelligence — latest report
 
 Schema: 2.0; scan: 5
-Report generated (UTC): 2026-10-31T21:32:16.101457+00:00
+Report generated (UTC): 2026-10-31T21:34:26.601041+00:00
 Data collection completed (UTC): 2026-10-31T21:32:06.096390+00:00
 Data: © OpenStreetMap contributors (ODbL) — https://www.openstreetmap.org/copyright
 **Caution:** An undetected feature is not a verified deficiency. Scores are not buying probabilities.
@@ -348,6 +348,8 @@ None in this scan.
 - f5c41c16b84107305252 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/way/1507549539 (page: unknown; 2026-10-31T21:29:40.129265+00:00; static_html)
   - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
   - Limitation: Branch/address matching must be verified before outreach
+- 3a4965f3b4c42ddb7771 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/way/1507549539 (page: unknown; 2026-10-31T21:29:40.129955+00:00; local_classifier)
+  - Limitation: Derived classification; no additional site inspection
 ### Scoring and limitations
 - problem_confirmation: 0/25
 - commercial_value: 0/20
@@ -380,6 +382,8 @@ None in this scan.
 - 97456e6efdf46bae8cf6 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/way/1020754976 (page: unknown; 2026-10-31T21:29:40.911607+00:00; static_html)
   - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
   - Limitation: Branch/address matching must be verified before outreach
+- 2bebcaa97e3e6ff115a1 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/way/1020754976 (page: unknown; 2026-10-31T21:29:40.911706+00:00; local_classifier)
+  - Limitation: Derived classification; no additional site inspection
 ### Scoring and limitations
 - problem_confirmation: 0/25
 - commercial_value: 0/20
@@ -506,6 +510,8 @@ None in this scan.
 - a6295682f979a02f2dbb [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/node/11872813199 (page: unknown; 2026-10-31T21:29:51.640898+00:00; static_html)
   - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
   - Limitation: Branch/address matching must be verified before outreach
+- 929295038db26875155f [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/11872813199 (page: unknown; 2026-10-31T21:29:51.640999+00:00; local_classifier)
+  - Limitation: Derived classification; no additional site inspection
 ### Scoring and limitations
 - problem_confirmation: 0/25
 - commercial_value: 0/20
@@ -600,6 +606,8 @@ None in this scan.
 - c7c2d0440ed0518ae2e3 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/node/1481633362 (page: unknown; 2026-10-31T21:30:20.379381+00:00; static_html)
   - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
   - Limitation: Branch/address matching must be verified before outreach
+- f7f217181de4cded8bc4 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/1481633362 (page: unknown; 2026-10-31T21:30:20.379460+00:00; local_classifier)
+  - Limitation: Derived classification; no additional site inspection
 ### Scoring and limitations
 - problem_confirmation: 0/25
 - commercial_value: 0/20

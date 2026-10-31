@@ -1,7 +1,7 @@
 {
   "report_schema_version": "2.0",
   "scan_id": 5,
-  "generated_at": "2026-10-31T21:32:16.101457+00:00",
+  "generated_at": "2026-10-31T21:34:26.601041+00:00",
   "data_collected_at": "2026-10-31T21:32:06.096390+00:00",
   "source_attribution": "© OpenStreetMap contributors — ODbL; public business pages; Wikidata (CC0)",
   "inspection_summary": {
@@ -46,6 +46,21 @@
               "Branch/address matching must be verified before outreach"
             ],
             "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "3a4965f3b4c42ddb7771",
+            "business_id": 1,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/way/1507549539",
+            "page_title": "",
+            "observed_at": "2026-10-31T21:29:40.129955+00:00",
+            "inspection_method": "local_classifier",
+            "confidence": "unknown",
+            "limitations": [
+              "Derived classification; no additional site inspection"
+            ],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
           }
         ],
         "coverage": {
@@ -153,6 +168,21 @@
               "Branch/address matching must be verified before outreach"
             ],
             "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "2bebcaa97e3e6ff115a1",
+            "business_id": 2,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/way/1020754976",
+            "page_title": "",
+            "observed_at": "2026-10-31T21:29:40.911706+00:00",
+            "inspection_method": "local_classifier",
+            "confidence": "unknown",
+            "limitations": [
+              "Derived classification; no additional site inspection"
+            ],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
           }
         ],
         "coverage": {
@@ -1223,6 +1253,21 @@
               "Branch/address matching must be verified before outreach"
             ],
             "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "929295038db26875155f",
+            "business_id": 7,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/11872813199",
+            "page_title": "",
+            "observed_at": "2026-10-31T21:29:51.640999+00:00",
+            "inspection_method": "local_classifier",
+            "confidence": "unknown",
+            "limitations": [
+              "Derived classification; no additional site inspection"
+            ],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
           }
         ],
         "coverage": {
@@ -4518,6 +4563,21 @@
               "Branch/address matching must be verified before outreach"
             ],
             "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "f7f217181de4cded8bc4",
+            "business_id": 15,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/1481633362",
+            "page_title": "",
+            "observed_at": "2026-10-31T21:30:20.379460+00:00",
+            "inspection_method": "local_classifier",
+            "confidence": "unknown",
+            "limitations": [
+              "Derived classification; no additional site inspection"
+            ],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
           }
         ],
         "coverage": {
@@ -4609,6 +4669,21 @@
       "evidence_excerpt": "No verified official website found in checked sources"
     },
     {
+      "evidence_id": "3a4965f3b4c42ddb7771",
+      "business_id": 1,
+      "observation_type": "business_ownership",
+      "observed_value": "unknown",
+      "source_url": "https://www.openstreetmap.org/way/1507549539",
+      "page_title": "",
+      "observed_at": "2026-10-31T21:29:40.129955+00:00",
+      "inspection_method": "local_classifier",
+      "confidence": "unknown",
+      "limitations": [
+        "Derived classification; no additional site inspection"
+      ],
+      "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+    },
+    {
       "evidence_id": "97456e6efdf46bae8cf6",
       "business_id": 2,
       "observation_type": "official_website_not_verified",
@@ -4623,6 +4698,21 @@
         "Branch/address matching must be verified before outreach"
       ],
       "evidence_excerpt": "No verified official website found in checked sources"
+    },
+    {
+      "evidence_id": "2bebcaa97e3e6ff115a1",
+      "business_id": 2,
+      "observation_type": "business_ownership",
+      "observed_value": "unknown",
+      "source_url": "https://www.openstreetmap.org/way/1020754976",
+      "page_title": "",
+      "observed_at": "2026-10-31T21:29:40.911706+00:00",
+      "inspection_method": "local_classifier",
+      "confidence": "unknown",
+      "limitations": [
+        "Derived classification; no additional site inspection"
+      ],
+      "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
     },
     {
       "evidence_id": "cf4bc91481e3c4e6dff8",
@@ -4985,6 +5075,21 @@
         "Branch/address matching must be verified before outreach"
       ],
       "evidence_excerpt": "No verified official website found in checked sources"
+    },
+    {
+      "evidence_id": "929295038db26875155f",
+      "business_id": 7,
+      "observation_type": "business_ownership",
+      "observed_value": "unknown",
+      "source_url": "https://www.openstreetmap.org/node/11872813199",
+      "page_title": "",
+      "observed_at": "2026-10-31T21:29:51.640999+00:00",
+      "inspection_method": "local_classifier",
+      "confidence": "unknown",
+      "limitations": [
+        "Derived classification; no additional site inspection"
+      ],
+      "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
     },
     {
       "evidence_id": "d989c17714a3e14926c4",
@@ -6642,6 +6747,21 @@
         "Branch/address matching must be verified before outreach"
       ],
       "evidence_excerpt": "No verified official website found in checked sources"
+    },
+    {
+      "evidence_id": "f7f217181de4cded8bc4",
+      "business_id": 15,
+      "observation_type": "business_ownership",
+      "observed_value": "unknown",
+      "source_url": "https://www.openstreetmap.org/node/1481633362",
+      "page_title": "",
+      "observed_at": "2026-10-31T21:30:20.379460+00:00",
+      "inspection_method": "local_classifier",
+      "confidence": "unknown",
+      "limitations": [
+        "Derived classification; no additional site inspection"
+      ],
+      "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
     }
   ],
   "limitations": [
@@ -6804,6 +6924,21 @@
               "Branch/address matching must be verified before outreach"
             ],
             "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "3a4965f3b4c42ddb7771",
+            "business_id": 1,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/way/1507549539",
+            "page_title": "",
+            "observed_at": "2026-10-31T21:29:40.129955+00:00",
+            "inspection_method": "local_classifier",
+            "confidence": "unknown",
+            "limitations": [
+              "Derived classification; no additional site inspection"
+            ],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
           }
         ],
         "coverage": {
@@ -6911,6 +7046,21 @@
               "Branch/address matching must be verified before outreach"
             ],
             "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "2bebcaa97e3e6ff115a1",
+            "business_id": 2,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/way/1020754976",
+            "page_title": "",
+            "observed_at": "2026-10-31T21:29:40.911706+00:00",
+            "inspection_method": "local_classifier",
+            "confidence": "unknown",
+            "limitations": [
+              "Derived classification; no additional site inspection"
+            ],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
           }
         ],
         "coverage": {
@@ -7981,6 +8131,21 @@
               "Branch/address matching must be verified before outreach"
             ],
             "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "929295038db26875155f",
+            "business_id": 7,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/11872813199",
+            "page_title": "",
+            "observed_at": "2026-10-31T21:29:51.640999+00:00",
+            "inspection_method": "local_classifier",
+            "confidence": "unknown",
+            "limitations": [
+              "Derived classification; no additional site inspection"
+            ],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
           }
         ],
         "coverage": {
@@ -11276,6 +11441,21 @@
               "Branch/address matching must be verified before outreach"
             ],
             "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "f7f217181de4cded8bc4",
+            "business_id": 15,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/1481633362",
+            "page_title": "",
+            "observed_at": "2026-10-31T21:30:20.379460+00:00",
+            "inspection_method": "local_classifier",
+            "confidence": "unknown",
+            "limitations": [
+              "Derived classification; no additional site inspection"
+            ],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
           }
         ],
         "coverage": {
@@ -11351,5 +11531,5 @@
   ],
   "notice": "An undetected feature is not a verified deficiency.",
   "attribution": "© OpenStreetMap contributors — ODbL",
-  "mirror_published_at": "2026-10-31T21:32:16.108464+00:00"
+  "mirror_published_at": "2026-10-31T21:34:26.607495+00:00"
 }
