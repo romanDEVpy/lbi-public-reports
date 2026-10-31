@@ -1,6 +1,6 @@
 # Local Business Intelligence — latest report
 
-Generated (UTC): 2026-10-31T20:54:44.871817+00:00
+Generated (UTC): 2026-10-31T21:10:01.689974+00:00
 Data: © OpenStreetMap contributors (ODbL) — https://www.openstreetmap.org/copyright
 **Caution:** An undetected feature is not a verified deficiency.
 
