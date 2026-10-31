@@ -1,13 +1,14 @@
 {
   "report_schema_version": "2.0",
-  "scan_id": 4,
-  "generated_at": "2026-10-31T21:31:24.796258+00:00",
-  "data_collected_at": "2026-10-31T21:30:20.885482+00:00",
+  "scan_id": 5,
+  "generated_at": "2026-10-31T21:32:16.101457+00:00",
+  "data_collected_at": "2026-10-31T21:32:06.096390+00:00",
   "source_attribution": "© OpenStreetMap contributors — ODbL; public business pages; Wikidata (CC0)",
   "inspection_summary": {
     "unable_to_assess": 9,
-    "needs_research": 3,
-    "already_well_equipped": 3
+    "not_suitable": 1,
+    "already_well_equipped": 3,
+    "needs_research": 2
   },
   "leads": [
     {
@@ -381,10 +382,10 @@
       "website": "https://www.velvettaco.com/location/6th-congress/",
       "osm_url": "https://www.openstreetmap.org/node/9136489517",
       "is_demo": 0,
-      "checked_at": "2026-10-31 21:29:48",
+      "checked_at": "2026-10-31 21:31:59",
       "status": "inspected",
-      "score": 23,
-      "summary": "Manually verify business identity, workflow and decision maker",
+      "score": 0,
+      "summary": "Respect walk-in policy; do not propose booking without an expressed need",
       "findings": [
         {
           "type": "contact_channel",
@@ -409,6 +410,12 @@
           "detail": "JSON-LD business/page name",
           "evidence_url": "https://www.velvettaco.com/location/6th-congress/",
           "confidence": "weak"
+        },
+        {
+          "type": "booking_policy",
+          "detail": "first come, first serve",
+          "evidence_url": "https://www.velvettaco.com/faq/",
+          "confidence": "strong"
         },
         {
           "type": "contact_channel",
@@ -504,7 +511,7 @@
       "intelligence": {
         "schema_version": "2.0",
         "identity_verified": true,
-        "collected_at": "2026-10-31T21:29:48.932059+00:00",
+        "collected_at": "2026-10-31T21:31:59.957514+00:00",
         "evidence": [
           {
             "evidence_id": "9d11fd375213d1d790b6",
@@ -513,7 +520,7 @@
             "observed_value": "phone",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:44.193929+00:00",
+            "observed_at": "2026-10-31T21:31:55.307930+00:00",
             "inspection_method": "static_html",
             "confidence": "strong",
             "limitations": [],
@@ -526,7 +533,7 @@
             "observed_value": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:44.198639+00:00",
+            "observed_at": "2026-10-31T21:31:55.312601+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -539,7 +546,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:44.198671+00:00",
+            "observed_at": "2026-10-31T21:31:55.312638+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -552,11 +559,24 @@
             "observed_value": "Velvet Taco - 6th & Congress",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:44.198685+00:00",
+            "observed_at": "2026-10-31T21:31:55.312655+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
             "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "e669e31d4283ae6ff5c3",
+            "business_id": 4,
+            "observation_type": "booking_policy",
+            "observed_value": "walk_ins_only",
+            "source_url": "https://www.velvettaco.com/faq/",
+            "page_title": "FAQ - Velvet Taco",
+            "observed_at": "2026-10-31T21:31:57.455291+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "first come, first serve"
           },
           {
             "evidence_id": "9d7f790ba331ebaef562",
@@ -565,7 +585,7 @@
             "observed_value": "email",
             "source_url": "https://www.velvettaco.com/faq/",
             "page_title": "FAQ - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.236380+00:00",
+            "observed_at": "2026-10-31T21:31:57.460688+00:00",
             "inspection_method": "static_html",
             "confidence": "strong",
             "limitations": [],
@@ -578,7 +598,7 @@
             "observed_value": "FAQ - Velvet Taco",
             "source_url": "https://www.velvettaco.com/faq/",
             "page_title": "FAQ - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.244010+00:00",
+            "observed_at": "2026-10-31T21:31:57.468265+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -591,7 +611,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/faq/",
             "page_title": "FAQ - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.244049+00:00",
+            "observed_at": "2026-10-31T21:31:57.468301+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -604,7 +624,7 @@
             "observed_value": "About Us | Tacos Without Borders | Velvet Taco",
             "source_url": "https://www.velvettaco.com/about-us/",
             "page_title": "About Us | Tacos Without Borders | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.787876+00:00",
+            "observed_at": "2026-10-31T21:31:58.022252+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -617,7 +637,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/about-us/",
             "page_title": "About Us | Tacos Without Borders | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.787945+00:00",
+            "observed_at": "2026-10-31T21:31:58.022296+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -630,7 +650,7 @@
             "observed_value": "Coming Soon Locations - Velvet Taco",
             "source_url": "https://www.velvettaco.com/coming-soon-locations/",
             "page_title": "Coming Soon Locations - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:47.578798+00:00",
+            "observed_at": "2026-10-31T21:31:58.608190+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -643,7 +663,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/coming-soon-locations/",
             "page_title": "Coming Soon Locations - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:47.578840+00:00",
+            "observed_at": "2026-10-31T21:31:58.608230+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -656,7 +676,7 @@
             "observed_value": "contact_form",
             "source_url": "https://www.velvettaco.com/contact/",
             "page_title": "Contact - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.143427+00:00",
+            "observed_at": "2026-10-31T21:31:59.170727+00:00",
             "inspection_method": "static_html",
             "confidence": "strong",
             "limitations": [],
@@ -669,7 +689,7 @@
             "observed_value": "Contact - Velvet Taco",
             "source_url": "https://www.velvettaco.com/contact/",
             "page_title": "Contact - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.143653+00:00",
+            "observed_at": "2026-10-31T21:31:59.170980+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -682,7 +702,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/contact/",
             "page_title": "Contact - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.143681+00:00",
+            "observed_at": "2026-10-31T21:31:59.171009+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -695,7 +715,7 @@
             "observed_value": "Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco",
             "source_url": "https://www.velvettaco.com/locations/",
             "page_title": "Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.671971+00:00",
+            "observed_at": "2026-10-31T21:31:59.696220+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -708,7 +728,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/locations/",
             "page_title": "Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.672014+00:00",
+            "observed_at": "2026-10-31T21:31:59.696261+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -721,7 +741,7 @@
             "observed_value": "No booking controls detected on 6 sampled pages",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "",
-            "observed_at": "2026-10-31T21:29:48.925927+00:00",
+            "observed_at": "2026-10-31T21:31:59.950112+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [
@@ -736,7 +756,7 @@
             "observed_value": "Business name and OSM street/house number match public site",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.928479+00:00",
+            "observed_at": "2026-10-31T21:31:59.952670+00:00",
             "inspection_method": "static_html",
             "confidence": "strong",
             "limitations": [],
@@ -749,7 +769,7 @@
             "observed_value": "unknown",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "",
-            "observed_at": "2026-10-31T21:29:48.931992+00:00",
+            "observed_at": "2026-10-31T21:31:59.957450+00:00",
             "inspection_method": "static_html",
             "confidence": "unknown",
             "limitations": [],
@@ -782,46 +802,38 @@
         },
         "assessment": {
           "version": "2.0",
-          "commercial_score": 23,
-          "confidence": "weak",
+          "commercial_score": 0,
+          "confidence": "strong",
           "coverage": "partial",
-          "segment": "needs_research",
+          "segment": "not_suitable",
           "components": {
-            "problem_confirmation": 2,
-            "commercial_value": 6,
-            "service_fit": 8,
-            "business_accessibility": 2,
-            "evidence_quality": 2,
-            "implementation_ease": 3
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
           },
           "reasons": [
-            "problem_confirmation: 2/25",
-            "commercial_value: 6/20",
-            "service_fit: 8/20",
-            "business_accessibility: 2/15",
-            "evidence_quality: 2/10",
-            "implementation_ease: 3/10"
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
           ],
           "limitations": [
             "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
             "No form submitted, payment made or booking confirmation tested"
           ],
-          "next_action": "Manually verify business identity, workflow and decision maker",
-          "opportunities": [
-            {
-              "type": "restaurant_booking",
-              "status": "hypothesis",
-              "confidence": "weak",
-              "solution": "Discuss whether online scheduling fits the owner’s policy and existing workflow",
-              "evidence_ids": [
-                "2d45ab867c9c85ec69be"
-              ]
-            }
-          ],
+          "next_action": "Respect walk-in policy; do not propose booking without an expressed need",
+          "opportunities": [],
           "booking": {
-            "status": "unknown",
+            "status": "policy_no_reservations",
             "providers": [],
-            "policies": [],
+            "policies": [
+              "walk_ins_only"
+            ],
             "end_to_end_verified": false
           }
         },
@@ -872,9 +884,9 @@
           ]
         }
       },
-      "commercial_score": 23,
+      "commercial_score": 0,
       "matches_filters": true,
-      "report_section": "needs_research"
+      "report_section": "not_suitable"
     },
     {
       "id": 5,
@@ -4647,7 +4659,7 @@
       "observed_value": "phone",
       "source_url": "https://www.velvettaco.com/location/6th-congress/",
       "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-      "observed_at": "2026-10-31T21:29:44.193929+00:00",
+      "observed_at": "2026-10-31T21:31:55.307930+00:00",
       "inspection_method": "static_html",
       "confidence": "strong",
       "limitations": [],
@@ -4660,7 +4672,7 @@
       "observed_value": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
       "source_url": "https://www.velvettaco.com/location/6th-congress/",
       "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-      "observed_at": "2026-10-31T21:29:44.198639+00:00",
+      "observed_at": "2026-10-31T21:31:55.312601+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4673,7 +4685,7 @@
       "observed_value": "Velvet Taco",
       "source_url": "https://www.velvettaco.com/location/6th-congress/",
       "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-      "observed_at": "2026-10-31T21:29:44.198671+00:00",
+      "observed_at": "2026-10-31T21:31:55.312638+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4686,11 +4698,24 @@
       "observed_value": "Velvet Taco - 6th & Congress",
       "source_url": "https://www.velvettaco.com/location/6th-congress/",
       "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-      "observed_at": "2026-10-31T21:29:44.198685+00:00",
+      "observed_at": "2026-10-31T21:31:55.312655+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
       "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "e669e31d4283ae6ff5c3",
+      "business_id": 4,
+      "observation_type": "booking_policy",
+      "observed_value": "walk_ins_only",
+      "source_url": "https://www.velvettaco.com/faq/",
+      "page_title": "FAQ - Velvet Taco",
+      "observed_at": "2026-10-31T21:31:57.455291+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "first come, first serve"
     },
     {
       "evidence_id": "9d7f790ba331ebaef562",
@@ -4699,7 +4724,7 @@
       "observed_value": "email",
       "source_url": "https://www.velvettaco.com/faq/",
       "page_title": "FAQ - Velvet Taco",
-      "observed_at": "2026-10-31T21:29:46.236380+00:00",
+      "observed_at": "2026-10-31T21:31:57.460688+00:00",
       "inspection_method": "static_html",
       "confidence": "strong",
       "limitations": [],
@@ -4712,7 +4737,7 @@
       "observed_value": "FAQ - Velvet Taco",
       "source_url": "https://www.velvettaco.com/faq/",
       "page_title": "FAQ - Velvet Taco",
-      "observed_at": "2026-10-31T21:29:46.244010+00:00",
+      "observed_at": "2026-10-31T21:31:57.468265+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4725,7 +4750,7 @@
       "observed_value": "Velvet Taco",
       "source_url": "https://www.velvettaco.com/faq/",
       "page_title": "FAQ - Velvet Taco",
-      "observed_at": "2026-10-31T21:29:46.244049+00:00",
+      "observed_at": "2026-10-31T21:31:57.468301+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4738,7 +4763,7 @@
       "observed_value": "About Us | Tacos Without Borders | Velvet Taco",
       "source_url": "https://www.velvettaco.com/about-us/",
       "page_title": "About Us | Tacos Without Borders | Velvet Taco",
-      "observed_at": "2026-10-31T21:29:46.787876+00:00",
+      "observed_at": "2026-10-31T21:31:58.022252+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4751,7 +4776,7 @@
       "observed_value": "Velvet Taco",
       "source_url": "https://www.velvettaco.com/about-us/",
       "page_title": "About Us | Tacos Without Borders | Velvet Taco",
-      "observed_at": "2026-10-31T21:29:46.787945+00:00",
+      "observed_at": "2026-10-31T21:31:58.022296+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4764,7 +4789,7 @@
       "observed_value": "Coming Soon Locations - Velvet Taco",
       "source_url": "https://www.velvettaco.com/coming-soon-locations/",
       "page_title": "Coming Soon Locations - Velvet Taco",
-      "observed_at": "2026-10-31T21:29:47.578798+00:00",
+      "observed_at": "2026-10-31T21:31:58.608190+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4777,7 +4802,7 @@
       "observed_value": "Velvet Taco",
       "source_url": "https://www.velvettaco.com/coming-soon-locations/",
       "page_title": "Coming Soon Locations - Velvet Taco",
-      "observed_at": "2026-10-31T21:29:47.578840+00:00",
+      "observed_at": "2026-10-31T21:31:58.608230+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4790,7 +4815,7 @@
       "observed_value": "contact_form",
       "source_url": "https://www.velvettaco.com/contact/",
       "page_title": "Contact - Velvet Taco",
-      "observed_at": "2026-10-31T21:29:48.143427+00:00",
+      "observed_at": "2026-10-31T21:31:59.170727+00:00",
       "inspection_method": "static_html",
       "confidence": "strong",
       "limitations": [],
@@ -4803,7 +4828,7 @@
       "observed_value": "Contact - Velvet Taco",
       "source_url": "https://www.velvettaco.com/contact/",
       "page_title": "Contact - Velvet Taco",
-      "observed_at": "2026-10-31T21:29:48.143653+00:00",
+      "observed_at": "2026-10-31T21:31:59.170980+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4816,7 +4841,7 @@
       "observed_value": "Velvet Taco",
       "source_url": "https://www.velvettaco.com/contact/",
       "page_title": "Contact - Velvet Taco",
-      "observed_at": "2026-10-31T21:29:48.143681+00:00",
+      "observed_at": "2026-10-31T21:31:59.171009+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4829,7 +4854,7 @@
       "observed_value": "Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco",
       "source_url": "https://www.velvettaco.com/locations/",
       "page_title": "Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco",
-      "observed_at": "2026-10-31T21:29:48.671971+00:00",
+      "observed_at": "2026-10-31T21:31:59.696220+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4842,7 +4867,7 @@
       "observed_value": "Velvet Taco",
       "source_url": "https://www.velvettaco.com/locations/",
       "page_title": "Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco",
-      "observed_at": "2026-10-31T21:29:48.672014+00:00",
+      "observed_at": "2026-10-31T21:31:59.696261+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [],
@@ -4855,7 +4880,7 @@
       "observed_value": "No booking controls detected on 6 sampled pages",
       "source_url": "https://www.velvettaco.com/location/6th-congress/",
       "page_title": "",
-      "observed_at": "2026-10-31T21:29:48.925927+00:00",
+      "observed_at": "2026-10-31T21:31:59.950112+00:00",
       "inspection_method": "static_html",
       "confidence": "weak",
       "limitations": [
@@ -4870,7 +4895,7 @@
       "observed_value": "Business name and OSM street/house number match public site",
       "source_url": "https://www.velvettaco.com/location/6th-congress/",
       "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-      "observed_at": "2026-10-31T21:29:48.928479+00:00",
+      "observed_at": "2026-10-31T21:31:59.952670+00:00",
       "inspection_method": "static_html",
       "confidence": "strong",
       "limitations": [],
@@ -4883,7 +4908,7 @@
       "observed_value": "unknown",
       "source_url": "https://www.velvettaco.com/location/6th-congress/",
       "page_title": "",
-      "observed_at": "2026-10-31T21:29:48.931992+00:00",
+      "observed_at": "2026-10-31T21:31:59.957450+00:00",
       "inspection_method": "static_html",
       "confidence": "unknown",
       "limitations": [],
@@ -6631,101 +6656,101 @@
       "source": "OSM discovery",
       "status": "success",
       "message": "15 bounded records; cache/Overpass/OSM map fallback; ODbL",
-      "observed_at": "2026-10-31 21:29:39"
+      "observed_at": "2026-10-31 21:31:51"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:29:39"
+      "observed_at": "2026-10-31 21:31:51"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:29:40"
+      "observed_at": "2026-10-31 21:31:51"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:29:41"
+      "observed_at": "2026-10-31 21:31:52"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:29:42"
+      "observed_at": "2026-10-31 21:31:52"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:29:49"
+      "observed_at": "2026-10-31 21:32:00"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:29:50"
+      "observed_at": "2026-10-31 21:32:00"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:29:51"
+      "observed_at": "2026-10-31 21:32:01"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:29:52"
+      "observed_at": "2026-10-31 21:32:01"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:29:52"
+      "observed_at": "2026-10-31 21:32:02"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:30:09"
+      "observed_at": "2026-10-31 21:32:03"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:30:11"
+      "observed_at": "2026-10-31 21:32:03"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:30:12"
+      "observed_at": "2026-10-31 21:32:04"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:30:16"
+      "observed_at": "2026-10-31 21:32:04"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:30:18"
+      "observed_at": "2026-10-31 21:32:05"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-10-31 21:30:20"
+      "observed_at": "2026-10-31 21:32:05"
     }
   ],
   "scan": {
-    "id": 4,
+    "id": 5,
     "status": "completed",
     "city": "Austin, TX",
     "category": "restaurant",
@@ -6736,12 +6761,12 @@
     "discovered": 15,
     "inspected": 11,
     "message": "Done",
-    "started_at": "2026-10-31 21:29:04",
-    "finished_at": "2026-10-31T21:30:20.885482+00:00",
-    "options_json": "{\"country\": \"USA\", \"depth\": \"standard\", \"max_pages\": null, \"independent_only\": false, \"opportunity_type\": \"\", \"min_score\": 0, \"min_confidence\": \"unknown\", \"bbox\": null}",
+    "started_at": "2026-10-31 21:31:51",
+    "finished_at": "2026-10-31T21:32:06.096390+00:00",
+    "options_json": "{\"country\": \"USA\", \"depth\": \"standard\", \"max_pages\": null, \"independent_only\": false, \"opportunity_type\": \"\", \"min_score\": 0, \"min_confidence\": \"unknown\", \"bbox\": null, \"refresh_ids\": [4]}",
     "processed": 15,
     "ready_count": 0,
-    "review_count": 12
+    "review_count": 11
   },
   "businesses": [
     {
@@ -7115,10 +7140,10 @@
       "website": "https://www.velvettaco.com/location/6th-congress/",
       "osm_url": "https://www.openstreetmap.org/node/9136489517",
       "is_demo": 0,
-      "checked_at": "2026-10-31 21:29:48",
+      "checked_at": "2026-10-31 21:31:59",
       "status": "inspected",
-      "score": 23,
-      "summary": "Manually verify business identity, workflow and decision maker",
+      "score": 0,
+      "summary": "Respect walk-in policy; do not propose booking without an expressed need",
       "findings": [
         {
           "type": "contact_channel",
@@ -7143,6 +7168,12 @@
           "detail": "JSON-LD business/page name",
           "evidence_url": "https://www.velvettaco.com/location/6th-congress/",
           "confidence": "weak"
+        },
+        {
+          "type": "booking_policy",
+          "detail": "first come, first serve",
+          "evidence_url": "https://www.velvettaco.com/faq/",
+          "confidence": "strong"
         },
         {
           "type": "contact_channel",
@@ -7238,7 +7269,7 @@
       "intelligence": {
         "schema_version": "2.0",
         "identity_verified": true,
-        "collected_at": "2026-10-31T21:29:48.932059+00:00",
+        "collected_at": "2026-10-31T21:31:59.957514+00:00",
         "evidence": [
           {
             "evidence_id": "9d11fd375213d1d790b6",
@@ -7247,7 +7278,7 @@
             "observed_value": "phone",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:44.193929+00:00",
+            "observed_at": "2026-10-31T21:31:55.307930+00:00",
             "inspection_method": "static_html",
             "confidence": "strong",
             "limitations": [],
@@ -7260,7 +7291,7 @@
             "observed_value": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:44.198639+00:00",
+            "observed_at": "2026-10-31T21:31:55.312601+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7273,7 +7304,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:44.198671+00:00",
+            "observed_at": "2026-10-31T21:31:55.312638+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7286,11 +7317,24 @@
             "observed_value": "Velvet Taco - 6th & Congress",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:44.198685+00:00",
+            "observed_at": "2026-10-31T21:31:55.312655+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
             "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "e669e31d4283ae6ff5c3",
+            "business_id": 4,
+            "observation_type": "booking_policy",
+            "observed_value": "walk_ins_only",
+            "source_url": "https://www.velvettaco.com/faq/",
+            "page_title": "FAQ - Velvet Taco",
+            "observed_at": "2026-10-31T21:31:57.455291+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "first come, first serve"
           },
           {
             "evidence_id": "9d7f790ba331ebaef562",
@@ -7299,7 +7343,7 @@
             "observed_value": "email",
             "source_url": "https://www.velvettaco.com/faq/",
             "page_title": "FAQ - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.236380+00:00",
+            "observed_at": "2026-10-31T21:31:57.460688+00:00",
             "inspection_method": "static_html",
             "confidence": "strong",
             "limitations": [],
@@ -7312,7 +7356,7 @@
             "observed_value": "FAQ - Velvet Taco",
             "source_url": "https://www.velvettaco.com/faq/",
             "page_title": "FAQ - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.244010+00:00",
+            "observed_at": "2026-10-31T21:31:57.468265+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7325,7 +7369,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/faq/",
             "page_title": "FAQ - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.244049+00:00",
+            "observed_at": "2026-10-31T21:31:57.468301+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7338,7 +7382,7 @@
             "observed_value": "About Us | Tacos Without Borders | Velvet Taco",
             "source_url": "https://www.velvettaco.com/about-us/",
             "page_title": "About Us | Tacos Without Borders | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.787876+00:00",
+            "observed_at": "2026-10-31T21:31:58.022252+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7351,7 +7395,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/about-us/",
             "page_title": "About Us | Tacos Without Borders | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:46.787945+00:00",
+            "observed_at": "2026-10-31T21:31:58.022296+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7364,7 +7408,7 @@
             "observed_value": "Coming Soon Locations - Velvet Taco",
             "source_url": "https://www.velvettaco.com/coming-soon-locations/",
             "page_title": "Coming Soon Locations - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:47.578798+00:00",
+            "observed_at": "2026-10-31T21:31:58.608190+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7377,7 +7421,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/coming-soon-locations/",
             "page_title": "Coming Soon Locations - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:47.578840+00:00",
+            "observed_at": "2026-10-31T21:31:58.608230+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7390,7 +7434,7 @@
             "observed_value": "contact_form",
             "source_url": "https://www.velvettaco.com/contact/",
             "page_title": "Contact - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.143427+00:00",
+            "observed_at": "2026-10-31T21:31:59.170727+00:00",
             "inspection_method": "static_html",
             "confidence": "strong",
             "limitations": [],
@@ -7403,7 +7447,7 @@
             "observed_value": "Contact - Velvet Taco",
             "source_url": "https://www.velvettaco.com/contact/",
             "page_title": "Contact - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.143653+00:00",
+            "observed_at": "2026-10-31T21:31:59.170980+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7416,7 +7460,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/contact/",
             "page_title": "Contact - Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.143681+00:00",
+            "observed_at": "2026-10-31T21:31:59.171009+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7429,7 +7473,7 @@
             "observed_value": "Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco",
             "source_url": "https://www.velvettaco.com/locations/",
             "page_title": "Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.671971+00:00",
+            "observed_at": "2026-10-31T21:31:59.696220+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7442,7 +7486,7 @@
             "observed_value": "Velvet Taco",
             "source_url": "https://www.velvettaco.com/locations/",
             "page_title": "Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.672014+00:00",
+            "observed_at": "2026-10-31T21:31:59.696261+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [],
@@ -7455,7 +7499,7 @@
             "observed_value": "No booking controls detected on 6 sampled pages",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "",
-            "observed_at": "2026-10-31T21:29:48.925927+00:00",
+            "observed_at": "2026-10-31T21:31:59.950112+00:00",
             "inspection_method": "static_html",
             "confidence": "weak",
             "limitations": [
@@ -7470,7 +7514,7 @@
             "observed_value": "Business name and OSM street/house number match public site",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco",
-            "observed_at": "2026-10-31T21:29:48.928479+00:00",
+            "observed_at": "2026-10-31T21:31:59.952670+00:00",
             "inspection_method": "static_html",
             "confidence": "strong",
             "limitations": [],
@@ -7483,7 +7527,7 @@
             "observed_value": "unknown",
             "source_url": "https://www.velvettaco.com/location/6th-congress/",
             "page_title": "",
-            "observed_at": "2026-10-31T21:29:48.931992+00:00",
+            "observed_at": "2026-10-31T21:31:59.957450+00:00",
             "inspection_method": "static_html",
             "confidence": "unknown",
             "limitations": [],
@@ -7516,46 +7560,38 @@
         },
         "assessment": {
           "version": "2.0",
-          "commercial_score": 23,
-          "confidence": "weak",
+          "commercial_score": 0,
+          "confidence": "strong",
           "coverage": "partial",
-          "segment": "needs_research",
+          "segment": "not_suitable",
           "components": {
-            "problem_confirmation": 2,
-            "commercial_value": 6,
-            "service_fit": 8,
-            "business_accessibility": 2,
-            "evidence_quality": 2,
-            "implementation_ease": 3
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
           },
           "reasons": [
-            "problem_confirmation: 2/25",
-            "commercial_value: 6/20",
-            "service_fit: 8/20",
-            "business_accessibility: 2/15",
-            "evidence_quality: 2/10",
-            "implementation_ease: 3/10"
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
           ],
           "limitations": [
             "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
             "No form submitted, payment made or booking confirmation tested"
           ],
-          "next_action": "Manually verify business identity, workflow and decision maker",
-          "opportunities": [
-            {
-              "type": "restaurant_booking",
-              "status": "hypothesis",
-              "confidence": "weak",
-              "solution": "Discuss whether online scheduling fits the owner’s policy and existing workflow",
-              "evidence_ids": [
-                "2d45ab867c9c85ec69be"
-              ]
-            }
-          ],
+          "next_action": "Respect walk-in policy; do not propose booking without an expressed need",
+          "opportunities": [],
           "booking": {
-            "status": "unknown",
+            "status": "policy_no_reservations",
             "providers": [],
-            "policies": [],
+            "policies": [
+              "walk_ins_only"
+            ],
             "end_to_end_verified": false
           }
         },
@@ -7606,9 +7642,9 @@
           ]
         }
       },
-      "commercial_score": 23,
+      "commercial_score": 0,
       "matches_filters": true,
-      "report_section": "needs_research"
+      "report_section": "not_suitable"
     },
     {
       "id": 5,
@@ -11315,5 +11351,5 @@
   ],
   "notice": "An undetected feature is not a verified deficiency.",
   "attribution": "© OpenStreetMap contributors — ODbL",
-  "mirror_published_at": "2026-10-31T21:31:24.806334+00:00"
+  "mirror_published_at": "2026-10-31T21:32:16.108464+00:00"
 }

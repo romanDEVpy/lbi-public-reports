@@ -1,8 +1,8 @@
 # Local Business Intelligence — latest report
 
-Schema: 2.0; scan: 4
-Report generated (UTC): 2026-10-31T21:31:24.796258+00:00
-Data collection completed (UTC): 2026-10-31T21:30:20.885482+00:00
+Schema: 2.0; scan: 5
+Report generated (UTC): 2026-10-31T21:32:16.101457+00:00
+Data collection completed (UTC): 2026-10-31T21:32:06.096390+00:00
 Data: © OpenStreetMap contributors (ODbL) — https://www.openstreetmap.org/copyright
 **Caution:** An undetected feature is not a verified deficiency. Scores are not buying probabilities.
 
@@ -11,55 +11,6 @@ Data: © OpenStreetMap contributors (ODbL) — https://www.openstreetmap.org/cop
 None in this scan.
 
 # NEEDS MANUAL REVIEW
-
-## Lead 4: Velvet Taco
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: https://www.velvettaco.com/location/6th-congress/; discovery: verified
-- OSM source: https://www.openstreetmap.org/node/9136489517
-- Commercial score: 23/100; confidence: weak; coverage: partial
-- Sampled pages: 6 / found 6; homepage False; booking page False; FAQ True
-- External booking links checked: 0; manual review: True
-- Booking: unknown; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:29:48.932059+00:00
-- Recommendation: Manually verify business identity, workflow and decision maker
-
-### Opportunities
-- restaurant_booking [hypothesis, weak]: Discuss whether online scheduling fits the owner’s policy and existing workflow; evidence: 2d45ab867c9c85ec69be
-### Evidence
-- 9d11fd375213d1d790b6 [strong] contact_channel: Public contact channel present — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:29:44.193929+00:00; static_html)
-- faae64c54eb22b210b02 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:29:44.198639+00:00; static_html)
-- 9a56f4401a93bf1d5541 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:29:44.198671+00:00; static_html)
-- 2968cc5a392d2854a38c [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:29:44.198685+00:00; static_html)
-- 9d7f790ba331ebaef562 [strong] contact_channel: Public contact channel present — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:29:46.236380+00:00; static_html)
-- fa775020c8dfa90366c5 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:29:46.244010+00:00; static_html)
-- 2a3fefcd0be98daa9858 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:29:46.244049+00:00; static_html)
-- 1132a3f61b0adc9e88ff [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/about-us/ (page: About Us | Tacos Without Borders | Velvet Taco; 2026-10-31T21:29:46.787876+00:00; static_html)
-- c79a0af6e30f85dfa9bf [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/about-us/ (page: About Us | Tacos Without Borders | Velvet Taco; 2026-10-31T21:29:46.787945+00:00; static_html)
-- fb068b18dfb8f34514f6 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/coming-soon-locations/ (page: Coming Soon Locations - Velvet Taco; 2026-10-31T21:29:47.578798+00:00; static_html)
-- 08af4b15a3b25f268b8d [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/coming-soon-locations/ (page: Coming Soon Locations - Velvet Taco; 2026-10-31T21:29:47.578840+00:00; static_html)
-- a79967bb9b02c50c367d [strong] contact_channel: Contact form present; not submitted — https://www.velvettaco.com/contact/ (page: Contact - Velvet Taco; 2026-10-31T21:29:48.143427+00:00; static_html)
-- ca7f9e37b2f8494581f5 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/contact/ (page: Contact - Velvet Taco; 2026-10-31T21:29:48.143653+00:00; static_html)
-- 2d686dfceade328218b8 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/contact/ (page: Contact - Velvet Taco; 2026-10-31T21:29:48.143681+00:00; static_html)
-- 74df0fda92553a4cbc6b [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/locations/ (page: Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco; 2026-10-31T21:29:48.671971+00:00; static_html)
-- 61a4644060d7b4f219f2 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/locations/ (page: Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco; 2026-10-31T21:29:48.672014+00:00; static_html)
-- 2d45ab867c9c85ec69be [weak] booking_not_detected: No booking controls detected on 6 sampled pages — https://www.velvettaco.com/location/6th-congress/ (page: unknown; 2026-10-31T21:29:48.925927+00:00; static_html)
-  - Limitation: Absence of detection is not absence of functionality
-- 5e97120f0cd05fba0cb6 [strong] official_website_match: Business name and OSM street/house number match public site — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:29:48.928479+00:00; static_html)
-- 7e1a312dc2793f7b62f5 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.velvettaco.com/location/6th-congress/ (page: unknown; 2026-10-31T21:29:48.931992+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 2/25
-- commercial_value: 6/20
-- service_fit: 8/20
-- business_accessibility: 2/15
-- evidence_quality: 2/10
-- implementation_ease: 3/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- OSM tag is a candidate; ownership still requires site/address confirmation
 
 ## Lead 10: Sushi Junai Omakase
 - Country / city: USA / Austin, TX
@@ -665,7 +616,54 @@ None in this scan.
 
 # EXCLUDED / LOW PRIORITY
 
-None in this scan.
+## Lead 4: Velvet Taco
+- Country / city: USA / Austin, TX
+- Category: restaurant; ownership: unknown (unknown)
+- Official website: https://www.velvettaco.com/location/6th-congress/; discovery: verified
+- OSM source: https://www.openstreetmap.org/node/9136489517
+- Commercial score: 0/100; confidence: strong; coverage: partial
+- Sampled pages: 6 / found 6; homepage False; booking page False; FAQ True
+- External booking links checked: 0; manual review: True
+- Booking: policy_no_reservations; providers: none detected (not proof of absence)
+- Policies: walk_ins_only
+- Collected: 2026-10-31T21:31:59.957514+00:00
+- Recommendation: Respect walk-in policy; do not propose booking without an expressed need
+
+### Opportunities
+### Evidence
+- 9d11fd375213d1d790b6 [strong] contact_channel: Public contact channel present — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:55.307930+00:00; static_html)
+- faae64c54eb22b210b02 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:55.312601+00:00; static_html)
+- 9a56f4401a93bf1d5541 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:55.312638+00:00; static_html)
+- 2968cc5a392d2854a38c [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:55.312655+00:00; static_html)
+- e669e31d4283ae6ff5c3 [strong] booking_policy: first come, first serve — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:31:57.455291+00:00; static_html)
+- 9d7f790ba331ebaef562 [strong] contact_channel: Public contact channel present — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:31:57.460688+00:00; static_html)
+- fa775020c8dfa90366c5 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:31:57.468265+00:00; static_html)
+- 2a3fefcd0be98daa9858 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:31:57.468301+00:00; static_html)
+- 1132a3f61b0adc9e88ff [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/about-us/ (page: About Us | Tacos Without Borders | Velvet Taco; 2026-10-31T21:31:58.022252+00:00; static_html)
+- c79a0af6e30f85dfa9bf [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/about-us/ (page: About Us | Tacos Without Borders | Velvet Taco; 2026-10-31T21:31:58.022296+00:00; static_html)
+- fb068b18dfb8f34514f6 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/coming-soon-locations/ (page: Coming Soon Locations - Velvet Taco; 2026-10-31T21:31:58.608190+00:00; static_html)
+- 08af4b15a3b25f268b8d [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/coming-soon-locations/ (page: Coming Soon Locations - Velvet Taco; 2026-10-31T21:31:58.608230+00:00; static_html)
+- a79967bb9b02c50c367d [strong] contact_channel: Contact form present; not submitted — https://www.velvettaco.com/contact/ (page: Contact - Velvet Taco; 2026-10-31T21:31:59.170727+00:00; static_html)
+- ca7f9e37b2f8494581f5 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/contact/ (page: Contact - Velvet Taco; 2026-10-31T21:31:59.170980+00:00; static_html)
+- 2d686dfceade328218b8 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/contact/ (page: Contact - Velvet Taco; 2026-10-31T21:31:59.171009+00:00; static_html)
+- 74df0fda92553a4cbc6b [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/locations/ (page: Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco; 2026-10-31T21:31:59.696220+00:00; static_html)
+- 61a4644060d7b4f219f2 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/locations/ (page: Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco; 2026-10-31T21:31:59.696261+00:00; static_html)
+- 2d45ab867c9c85ec69be [weak] booking_not_detected: No booking controls detected on 6 sampled pages — https://www.velvettaco.com/location/6th-congress/ (page: unknown; 2026-10-31T21:31:59.950112+00:00; static_html)
+  - Limitation: Absence of detection is not absence of functionality
+- 5e97120f0cd05fba0cb6 [strong] official_website_match: Business name and OSM street/house number match public site — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:59.952670+00:00; static_html)
+- 7e1a312dc2793f7b62f5 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.velvettaco.com/location/6th-congress/ (page: unknown; 2026-10-31T21:31:59.957450+00:00; static_html)
+### Scoring and limitations
+- problem_confirmation: 0/25
+- commercial_value: 0/20
+- service_fit: 0/20
+- business_accessibility: 0/15
+- evidence_quality: 0/10
+- implementation_ease: 0/10
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- OSM tag is a candidate; ownership still requires site/address confirmation
 
 # Report limitations
 - Public observations only; no internal workflow assumptions
