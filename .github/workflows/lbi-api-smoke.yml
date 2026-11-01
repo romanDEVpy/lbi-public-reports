@@ -1,0 +1,53 @@
+name: LBI external API smoke
+on:
+  push:
+    paths:
+      - '.github/workflows/lbi-api-smoke.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  https-and-auth:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify public HTTPS and reject unauthorized API access
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import socket
+          import ssl
+          import urllib.request
+          import urllib.error
+          host = 'bestdev.ddns.net'
+          base = 'https://' + host + '/lbi'
+          print('External DNS:', socket.gethostbyname(host))
+          context = ssl.create_default_context()
+          def check(path, expected=200, payload=None):
+              headers = {'Content-Type': 'application/json'} if payload is not None else {}
+              request = urllib.request.Request(base + path, data=json.dumps(payload).encode() if payload is not None else None, headers=headers)
+              try:
+                  with urllib.request.urlopen(request, timeout=20, context=context) as response:
+                      status = response.status
+                      body = response.read()
+              except urllib.error.HTTPError as error:
+                  status = error.code
+                  body = error.read()
+              assert status == expected, (path, status, expected)
+              print(('POST' if payload is not None else 'GET'), path, status)
+              return body
+          assert json.loads(check('/health')) == {'status': 'ok'}
+          assert json.loads(check('/api/v1/health'))['status'] == 'ok'
+          spec = json.loads(check('/api/v1/openapi.json'))
+          assert spec['servers'][0]['url'] == base + '/api/v1'
+          assert 'ReadAccess' in spec['components']['securitySchemes']
+          check('/api/v1/status', 401)
+          check('/api/v1/businesses', 401)
+          check('/api/v1/scans', 401)
+          check('/api/v1/scans', 401, {'request_id': 'external-unauthenticated-test', 'city': 'Austin', 'category': 'restaurant', 'latitude': 30.2672, 'longitude': -97.7431})
+          check('/.env', 404)
+          assert check('/reports/latest.md').startswith(b'# Local Business Intelligence')
+          assert json.loads(check('/reports/latest.json'))['report_schema_version'] == '2.0'
+          print('Verified from GitHub-hosted external runner: DNS, trusted TLS certificate, public health, API schema, read/write auth rejection and existing reports. No API credentials used.')
+          PY
