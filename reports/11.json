@@ -1,0 +1,4237 @@
+{
+  "report_schema_version": "2.0",
+  "scan_id": 11,
+  "generated_at": "2026-11-01T11:12:42.984434+00:00",
+  "data_collected_at": "2026-11-01T11:12:15.824276+00:00",
+  "source_attribution": "© OpenStreetMap contributors — ODbL; public business pages; Wikidata (CC0)",
+  "inspection_summary": {
+    "unable_to_assess": 3,
+    "already_well_equipped": 1,
+    "needs_research": 1
+  },
+  "leads": [
+    {
+      "id": 86,
+      "name": "Scruff's Barbershop",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2618329,
+      "lon": -97.7266028,
+      "website": null,
+      "osm_url": "https://www.openstreetmap.org/node/12815243178",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:04",
+      "status": "website_not_verified",
+      "score": 0,
+      "summary": "Official website requires manual discovery; OSM omission is not a sales problem",
+      "findings": [],
+      "intelligence": {
+        "schema_version": "2.0",
+        "collected_at": "2026-11-01T11:12:04.215893+00:00",
+        "evidence": [
+          {
+            "evidence_id": "878e1ecba333eb9da197",
+            "business_id": 86,
+            "observation_type": "official_website_not_verified",
+            "observed_value": "No verified official website found in checked sources",
+            "source_url": "https://www.openstreetmap.org/node/12815243178",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:04.215034+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [
+              "Search is limited to public structured sources; not_found does not mean no website exists",
+              "Branch/address matching must be verified before outreach"
+            ],
+            "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "5d9851cef13008d55888",
+            "business_id": 86,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/12815243178",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:04.215851+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "level": "none",
+          "pages_checked": 0,
+          "pages_found": 0,
+          "manual_review_required": true,
+          "depth": "standard"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "5d9851cef13008d55888"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "unknown",
+          "coverage": "none",
+          "segment": "unable_to_assess",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "Manually verify business identity, workflow and decision maker",
+          "opportunities": [],
+          "booking": {
+            "status": "not_detected_on_sampled_pages",
+            "providers": [],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "website_discovery": {
+          "status": "not_found",
+          "url": null,
+          "confidence": "unknown",
+          "method": "wikidata_public_api",
+          "candidates": [],
+          "limitations": [
+            "Search is limited to public structured sources; not_found does not mean no website exists",
+            "Branch/address matching must be verified before outreach"
+          ]
+        },
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ]
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    },
+    {
+      "id": 87,
+      "name": "Olde Soul Barbershop",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2627303,
+      "lon": -97.7252766,
+      "website": "https://oldesoulbarbershop.com",
+      "osm_url": "https://www.openstreetmap.org/node/12705556807",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:09",
+      "status": "inspected",
+      "score": 0,
+      "summary": "No replacement proposal justified by available public evidence",
+      "findings": [
+        {
+          "type": "booking_provider",
+          "detail": "https://booking.mangomint.com/app.js",
+          "evidence_url": "https://booking.mangomint.com/app.js",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_provider",
+          "detail": "BOOK NOW",
+          "evidence_url": "https://booking.mangomint.com/997767",
+          "confidence": "strong"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_provider",
+          "detail": "LEARN MORE",
+          "evidence_url": "https://booking.mangomint.com/997767?showOnlyScId=11",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-mueller",
+          "confidence": "weak"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+          "confidence": "weak"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/south-park-meadows",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/contact-us",
+          "confidence": "strong"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Contact form present; not submitted",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/contact-us",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/contact-us",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/locations",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_provider",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "https://booking.mangomint.com/997767/mueller",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_provider",
+          "detail": "BOOK NOW",
+          "evidence_url": "https://booking.mangomint.com/997767/eastsix",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "http://www.google.com/maps/place/30.162685130080092,-97.7912961451945",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/locations",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "http://www.google.com/maps/place/46.7834818,23.5464733",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+          "confidence": "weak"
+        },
+        {
+          "type": "booking_target_unverified",
+          "detail": "inspection_blocked",
+          "evidence_url": "https://booking.mangomint.com/app.js",
+          "confidence": "unknown"
+        },
+        {
+          "type": "booking_target_unverified",
+          "detail": "inspection_blocked",
+          "evidence_url": "https://booking.mangomint.com/997767",
+          "confidence": "unknown"
+        },
+        {
+          "type": "business_ownership",
+          "detail": "Ownership cannot be inferred from missing locations page",
+          "evidence_url": "https://oldesoulbarbershop.com",
+          "confidence": "unknown"
+        }
+      ],
+      "intelligence": {
+        "schema_version": "2.0",
+        "identity_verified": false,
+        "collected_at": "2026-11-01T11:12:09.252510+00:00",
+        "evidence": [
+          {
+            "evidence_id": "2522aedb5d63b74440fa",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/app.js",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.592212+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "https://booking.mangomint.com/app.js"
+          },
+          {
+            "evidence_id": "3deba614c59394b5cb02",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/997767",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.593668+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "BOOK NOW"
+          },
+          {
+            "evidence_id": "d1706fb08420c91051e3",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com",
+            "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:05.422896+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "67cd05d5907df07b9860",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/997767?showOnlyScId=11",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.597714+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "LEARN MORE"
+          },
+          {
+            "evidence_id": "445257caa133abe6e1c9",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-mueller",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.597812+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "68c7d6e85668577b5bb4",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.597895+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "0a2b28657a809c59326d",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "https://oldesoulbarbershop.com/pages/south-park-meadows",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.597985+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "0257bb16f897213edcbe",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com",
+            "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:05.433590+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "5a8030baca9704aa3ea7",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/",
+            "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:06.178602+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "87be729c69b964ea0aa3",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/",
+            "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:06.186948+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "2575919b8c77d72ae2ec",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+            "page_title": "About The Olde Soul",
+            "observed_at": "2026-11-01T11:12:06.753599+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "b437dab47072d0f3e49f",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+            "page_title": "About The Olde Soul",
+            "observed_at": "2026-11-01T11:12:06.762097+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "11d0b58a018f392de8e6",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/pages/contact-us",
+            "page_title": "Contact Us – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.300798+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "e527f2b487dc7fc43a23",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "contact_form",
+            "source_url": "https://oldesoulbarbershop.com/pages/contact-us",
+            "page_title": "Contact Us – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.306052+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Contact form present; not submitted"
+          },
+          {
+            "evidence_id": "df710f84c870772c3892",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/pages/contact-us",
+            "page_title": "Contact Us – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.306490+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "41dbd1855294a5b9d274",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/pages/locations",
+            "page_title": "Locations – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.886631+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "21515da1a1ec789f9c01",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/997767/mueller",
+            "page_title": "Locations – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.887539+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "96b13f61c5d66768612f",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/997767/eastsix",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.596454+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "BOOK NOW"
+          },
+          {
+            "evidence_id": "6f7279d26b4a688c30dd",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "http://www.google.com/maps/place/30.162685130080092,-97.7912961451945",
+            "page_title": "Locations – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.887659+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "616a33bb5eccb0537be3",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/pages/locations",
+            "page_title": "Locations – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.893805+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "434ead243dc6ec519abe",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.594713+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "fc7b2799362c7fdd451d",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "http://www.google.com/maps/place/46.7834818,23.5464733",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.595757+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "e9c2068dbacf0b1c28cb",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.606123+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "a6768e7e80df81397482",
+            "business_id": 87,
+            "observation_type": "booking_target_unverified",
+            "observed_value": "inspection_blocked",
+            "source_url": "https://booking.mangomint.com/app.js",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:09.247205+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "inspection_blocked"
+          },
+          {
+            "evidence_id": "a373afd88d203366aca2",
+            "business_id": 87,
+            "observation_type": "booking_target_unverified",
+            "observed_value": "inspection_blocked",
+            "source_url": "https://booking.mangomint.com/997767",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:09.247326+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "inspection_blocked"
+          },
+          {
+            "evidence_id": "00edcf179aecc1ba334c",
+            "business_id": 87,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://oldesoulbarbershop.com",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:09.252428+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "pages_checked": 6,
+          "pages_found": 10,
+          "homepage_checked": true,
+          "booking_page_checked": false,
+          "faq_checked": false,
+          "external_booking_links_checked": 2,
+          "access_errors": [
+            {
+              "url": "https://booking.mangomint.com/app.js",
+              "status": "inspection_blocked"
+            },
+            {
+              "url": "https://booking.mangomint.com/997767",
+              "status": "inspection_blocked"
+            }
+          ],
+          "manual_review_required": true,
+          "level": "partial",
+          "depth": "standard",
+          "browser_attempted": false,
+          "browser_used": false,
+          "entry_page_checked": true,
+          "booking_links_checked": 2,
+          "scope": "Bounded sampled pages, not a full site audit"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "00edcf179aecc1ba334c"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "strong",
+          "coverage": "partial",
+          "segment": "already_well_equipped",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "No replacement proposal justified by available public evidence",
+          "opportunities": [],
+          "booking": {
+            "status": "provider_or_flow_detected",
+            "providers": [
+              "Mangomint"
+            ],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "pages": [
+          {
+            "url": "https://oldesoulbarbershop.com",
+            "title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/",
+            "title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+            "title": "About The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/pages/contact-us",
+            "title": "Contact Us – The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/pages/locations",
+            "title": "Locations – The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+            "title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "method": "static_html"
+          }
+        ],
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ],
+        "website_discovery": {
+          "status": "likely",
+          "url": "https://oldesoulbarbershop.com",
+          "confidence": "weak",
+          "method": "osm_website_tag",
+          "candidates": [],
+          "limitations": [
+            "OSM tag is a candidate; ownership still requires site/address confirmation"
+          ]
+        }
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    },
+    {
+      "id": 88,
+      "name": "Sorek Barbershop + Menswear",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2616489,
+      "lon": -97.7229182,
+      "website": null,
+      "osm_url": "https://www.openstreetmap.org/node/13854806879",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:10",
+      "status": "website_not_verified",
+      "score": 0,
+      "summary": "Official website requires manual discovery; OSM omission is not a sales problem",
+      "findings": [],
+      "intelligence": {
+        "schema_version": "2.0",
+        "collected_at": "2026-11-01T11:12:10.056927+00:00",
+        "evidence": [
+          {
+            "evidence_id": "69d3b1775cce7a375a6e",
+            "business_id": 88,
+            "observation_type": "official_website_not_verified",
+            "observed_value": "No verified official website found in checked sources",
+            "source_url": "https://www.openstreetmap.org/node/13854806879",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:10.056841+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [
+              "Search is limited to public structured sources; not_found does not mean no website exists",
+              "Branch/address matching must be verified before outreach"
+            ],
+            "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "ed94ef8652d9e172420f",
+            "business_id": 88,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/13854806879",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:10.056900+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "level": "none",
+          "pages_checked": 0,
+          "pages_found": 0,
+          "manual_review_required": true,
+          "depth": "standard"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "ed94ef8652d9e172420f"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "unknown",
+          "coverage": "none",
+          "segment": "unable_to_assess",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "Manually verify business identity, workflow and decision maker",
+          "opportunities": [],
+          "booking": {
+            "status": "not_detected_on_sampled_pages",
+            "providers": [],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "website_discovery": {
+          "status": "not_found",
+          "url": null,
+          "confidence": "unknown",
+          "method": "wikidata_public_api",
+          "candidates": [],
+          "limitations": [
+            "Search is limited to public structured sources; not_found does not mean no website exists",
+            "Branch/address matching must be verified before outreach"
+          ]
+        },
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ]
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    },
+    {
+      "id": 89,
+      "name": "Barbon's Barbershop",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2626251,
+      "lon": -97.7208527,
+      "website": null,
+      "osm_url": "https://www.openstreetmap.org/node/13299887434",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:10",
+      "status": "website_not_verified",
+      "score": 0,
+      "summary": "Official website requires manual discovery; OSM omission is not a sales problem",
+      "findings": [],
+      "intelligence": {
+        "schema_version": "2.0",
+        "collected_at": "2026-11-01T11:12:10.920810+00:00",
+        "evidence": [
+          {
+            "evidence_id": "561ebf6eb95275831159",
+            "business_id": 89,
+            "observation_type": "official_website_not_verified",
+            "observed_value": "No verified official website found in checked sources",
+            "source_url": "https://www.openstreetmap.org/node/13299887434",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:10.920730+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [
+              "Search is limited to public structured sources; not_found does not mean no website exists",
+              "Branch/address matching must be verified before outreach"
+            ],
+            "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "666c2ef39e5998de6d78",
+            "business_id": 89,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/13299887434",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:10.920785+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "level": "none",
+          "pages_checked": 0,
+          "pages_found": 0,
+          "manual_review_required": true,
+          "depth": "standard"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "666c2ef39e5998de6d78"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "unknown",
+          "coverage": "none",
+          "segment": "unable_to_assess",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "Manually verify business identity, workflow and decision maker",
+          "opportunities": [],
+          "booking": {
+            "status": "not_detected_on_sampled_pages",
+            "providers": [],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "website_discovery": {
+          "status": "not_found",
+          "url": null,
+          "confidence": "unknown",
+          "method": "wikidata_public_api",
+          "candidates": [],
+          "limitations": [
+            "Search is limited to public structured sources; not_found does not mean no website exists",
+            "Branch/address matching must be verified before outreach"
+          ]
+        },
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ]
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    },
+    {
+      "id": 90,
+      "name": "Geiser Barbering",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2751986,
+      "lon": -97.7504281,
+      "website": "https://www.geiserbarbering.org",
+      "osm_url": "https://www.openstreetmap.org/node/13541879134",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:15",
+      "status": "inspected",
+      "score": 0,
+      "summary": "Booking-intent link detected; verify destination and end-to-end flow before proposing changes",
+      "findings": [
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "Schedule Now",
+          "evidence_url": "https://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "http://www.geiserbarbering.org",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "Schedule Now",
+          "evidence_url": "http://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://www.geiserbarbering.org/about",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/about",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/about",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://www.geiserbarbering.org/services",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "Booking-related link",
+          "evidence_url": "https://www.schedulista.com/schedule/geiserbarbering1?mode=widget",
+          "confidence": "weak"
+        },
+        {
+          "type": "booking_link",
+          "detail": "Booking-related link",
+          "evidence_url": "https://www.schedulista.com/schedule/geiserbarbering1/widget.js",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/services",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/services",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://www.geiserbarbering.org/services/",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "http://www.geiserbarbering.org/about",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org/about",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org/about",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "http://www.geiserbarbering.org/services/",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "official_website_match",
+          "detail": "Business name and OSM street/house number match public site",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "strong"
+        },
+        {
+          "type": "business_ownership",
+          "detail": "Ownership cannot be inferred from missing locations page",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "unknown"
+        }
+      ],
+      "intelligence": {
+        "schema_version": "2.0",
+        "identity_verified": true,
+        "collected_at": "2026-11-01T11:12:15.316833+00:00",
+        "evidence": [
+          {
+            "evidence_id": "d9a18a1ba1ef7554e57d",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:11.749332+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "d205bac719d2049d2e67",
+            "business_id": 90,
+            "observation_type": "booking_link",
+            "observed_value": "Schedule Now",
+            "source_url": "https://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.291298+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "Schedule Now"
+          },
+          {
+            "evidence_id": "88fc548f508e33fa4a39",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:11.751068+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "4e7930244a6a1399014e",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:11.751263+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "79408577541fe6c11d67",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "http://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:12.668463+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "2509c692c787c3834b23",
+            "business_id": 90,
+            "observation_type": "booking_link",
+            "observed_value": "Schedule Now",
+            "source_url": "http://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.313646+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "Schedule Now"
+          },
+          {
+            "evidence_id": "595ab0cbfe881a33c685",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "http://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:12.670078+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "f9aa70ba1fdbdd7a951f",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "http://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:12.670201+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "3e0b449281af063cda6c",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "https://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.179164+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "4f52a7868a761655b05a",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "https://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.180766+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "44d8092b9951e9cc62c6",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "https://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.180899+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "e73f64826bdf04f2ffd4",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "https://www.geiserbarbering.org/services",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.673866+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "f72140bf2346bf73e991",
+            "business_id": 90,
+            "observation_type": "booking_link",
+            "observed_value": "Booking-related link",
+            "source_url": "https://www.schedulista.com/schedule/geiserbarbering1?mode=widget",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.313766+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "Booking-related link"
+          },
+          {
+            "evidence_id": "b40ded93de32bf916bfd",
+            "business_id": 90,
+            "observation_type": "booking_link",
+            "observed_value": "Booking-related link",
+            "source_url": "https://www.schedulista.com/schedule/geiserbarbering1/widget.js",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.313836+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "Booking-related link"
+          },
+          {
+            "evidence_id": "71aa8f2acf70b14061a5",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "https://www.geiserbarbering.org/services",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.675217+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "cc02a87199fae8a50390",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "https://www.geiserbarbering.org/services",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.675333+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "1cce74fe0a7b2656fcfc",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "https://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.290758+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "f9e96f72e45dacbcc289",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "https://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.292038+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "0dc4628cdf621c1a6bbb",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "https://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.292151+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "c477af7c80edacd77e10",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "http://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.837757+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "ce3c3e8d2ef5cb128a07",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "http://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.840390+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "c3e38ed3f3f222e7d0a9",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "http://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.840597+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "c1f72563e30bc133defb",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "http://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.312875+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "d986edd88e398ba64bd3",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "http://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.314430+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "e4d95fab4ff50840f3a8",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "http://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.314532+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "d5ce78c69487f95de6e8",
+            "business_id": 90,
+            "observation_type": "official_website_match",
+            "observed_value": "Business name and OSM street/house number match public site",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.315814+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Business name and OSM street/house number match public site"
+          },
+          {
+            "evidence_id": "199a7f3c28e653af27b8",
+            "business_id": 90,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:15.316779+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "pages_checked": 6,
+          "pages_found": 8,
+          "homepage_checked": true,
+          "booking_page_checked": false,
+          "faq_checked": false,
+          "external_booking_links_checked": 0,
+          "access_errors": [],
+          "manual_review_required": true,
+          "level": "partial",
+          "depth": "standard",
+          "browser_attempted": false,
+          "browser_used": false,
+          "entry_page_checked": true,
+          "booking_links_checked": 1,
+          "scope": "Bounded sampled pages, not a full site audit"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "199a7f3c28e653af27b8"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "medium",
+          "coverage": "partial",
+          "segment": "needs_research",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "Booking-intent link detected; verify destination and end-to-end flow before proposing changes",
+          "opportunities": [],
+          "booking": {
+            "status": "link_detected",
+            "providers": [],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "pages": [
+          {
+            "url": "https://www.geiserbarbering.org",
+            "title": "Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "http://www.geiserbarbering.org",
+            "title": "Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "https://www.geiserbarbering.org/about",
+            "title": "About Nick Geiser — Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "https://www.geiserbarbering.org/services",
+            "title": "Services — Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "https://www.geiserbarbering.org/services/",
+            "title": "Services — Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "http://www.geiserbarbering.org/about",
+            "title": "About Nick Geiser — Geiser Barbering",
+            "method": "static_html"
+          }
+        ],
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ],
+        "website_discovery": {
+          "status": "verified",
+          "url": "https://www.geiserbarbering.org",
+          "confidence": "strong",
+          "method": "osm_website_tag",
+          "candidates": [],
+          "limitations": [
+            "OSM tag is a candidate; ownership still requires site/address confirmation"
+          ]
+        }
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "878e1ecba333eb9da197",
+      "business_id": 86,
+      "observation_type": "official_website_not_verified",
+      "observed_value": "No verified official website found in checked sources",
+      "source_url": "https://www.openstreetmap.org/node/12815243178",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:04.215034+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [
+        "Search is limited to public structured sources; not_found does not mean no website exists",
+        "Branch/address matching must be verified before outreach"
+      ],
+      "evidence_excerpt": "No verified official website found in checked sources"
+    },
+    {
+      "evidence_id": "5d9851cef13008d55888",
+      "business_id": 86,
+      "observation_type": "business_ownership",
+      "observed_value": "unknown",
+      "source_url": "https://www.openstreetmap.org/node/12815243178",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:04.215851+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [],
+      "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+    },
+    {
+      "evidence_id": "2522aedb5d63b74440fa",
+      "business_id": 87,
+      "observation_type": "booking_provider",
+      "observed_value": "Mangomint",
+      "source_url": "https://booking.mangomint.com/app.js",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.592212+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [
+        "Public link/widget detected; no reservation submitted or confirmation tested"
+      ],
+      "evidence_excerpt": "https://booking.mangomint.com/app.js"
+    },
+    {
+      "evidence_id": "3deba614c59394b5cb02",
+      "business_id": 87,
+      "observation_type": "booking_provider",
+      "observed_value": "Mangomint",
+      "source_url": "https://booking.mangomint.com/997767",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.593668+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [
+        "Public link/widget detected; no reservation submitted or confirmation tested"
+      ],
+      "evidence_excerpt": "BOOK NOW"
+    },
+    {
+      "evidence_id": "d1706fb08420c91051e3",
+      "business_id": 87,
+      "observation_type": "contact_channel",
+      "observed_value": "phone",
+      "source_url": "https://oldesoulbarbershop.com",
+      "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:05.422896+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "67cd05d5907df07b9860",
+      "business_id": 87,
+      "observation_type": "booking_provider",
+      "observed_value": "Mangomint",
+      "source_url": "https://booking.mangomint.com/997767?showOnlyScId=11",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.597714+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [
+        "Public link/widget detected; no reservation submitted or confirmation tested"
+      ],
+      "evidence_excerpt": "LEARN MORE"
+    },
+    {
+      "evidence_id": "445257caa133abe6e1c9",
+      "business_id": 87,
+      "observation_type": "booking_link",
+      "observed_value": "BOOK APPOINTMENT",
+      "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-mueller",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.597812+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [
+        "Link intent only; functionality requires target inspection"
+      ],
+      "evidence_excerpt": "BOOK APPOINTMENT"
+    },
+    {
+      "evidence_id": "68c7d6e85668577b5bb4",
+      "business_id": 87,
+      "observation_type": "booking_link",
+      "observed_value": "BOOK APPOINTMENT",
+      "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.597895+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [
+        "Link intent only; functionality requires target inspection"
+      ],
+      "evidence_excerpt": "BOOK APPOINTMENT"
+    },
+    {
+      "evidence_id": "0a2b28657a809c59326d",
+      "business_id": 87,
+      "observation_type": "booking_link",
+      "observed_value": "BOOK APPOINTMENT",
+      "source_url": "https://oldesoulbarbershop.com/pages/south-park-meadows",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.597985+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [
+        "Link intent only; functionality requires target inspection"
+      ],
+      "evidence_excerpt": "BOOK APPOINTMENT"
+    },
+    {
+      "evidence_id": "0257bb16f897213edcbe",
+      "business_id": 87,
+      "observation_type": "structured_business_name",
+      "observed_value": "The Olde Soul",
+      "source_url": "https://oldesoulbarbershop.com",
+      "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:05.433590+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "5a8030baca9704aa3ea7",
+      "business_id": 87,
+      "observation_type": "contact_channel",
+      "observed_value": "phone",
+      "source_url": "https://oldesoulbarbershop.com/",
+      "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:06.178602+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "87be729c69b964ea0aa3",
+      "business_id": 87,
+      "observation_type": "structured_business_name",
+      "observed_value": "The Olde Soul",
+      "source_url": "https://oldesoulbarbershop.com/",
+      "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:06.186948+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "2575919b8c77d72ae2ec",
+      "business_id": 87,
+      "observation_type": "contact_channel",
+      "observed_value": "phone",
+      "source_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+      "page_title": "About The Olde Soul",
+      "observed_at": "2026-11-01T11:12:06.753599+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "b437dab47072d0f3e49f",
+      "business_id": 87,
+      "observation_type": "structured_business_name",
+      "observed_value": "The Olde Soul",
+      "source_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+      "page_title": "About The Olde Soul",
+      "observed_at": "2026-11-01T11:12:06.762097+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "11d0b58a018f392de8e6",
+      "business_id": 87,
+      "observation_type": "contact_channel",
+      "observed_value": "phone",
+      "source_url": "https://oldesoulbarbershop.com/pages/contact-us",
+      "page_title": "Contact Us – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:07.300798+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "e527f2b487dc7fc43a23",
+      "business_id": 87,
+      "observation_type": "contact_channel",
+      "observed_value": "contact_form",
+      "source_url": "https://oldesoulbarbershop.com/pages/contact-us",
+      "page_title": "Contact Us – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:07.306052+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Contact form present; not submitted"
+    },
+    {
+      "evidence_id": "df710f84c870772c3892",
+      "business_id": 87,
+      "observation_type": "structured_business_name",
+      "observed_value": "The Olde Soul",
+      "source_url": "https://oldesoulbarbershop.com/pages/contact-us",
+      "page_title": "Contact Us – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:07.306490+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "41dbd1855294a5b9d274",
+      "business_id": 87,
+      "observation_type": "contact_channel",
+      "observed_value": "phone",
+      "source_url": "https://oldesoulbarbershop.com/pages/locations",
+      "page_title": "Locations – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:07.886631+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "21515da1a1ec789f9c01",
+      "business_id": 87,
+      "observation_type": "booking_provider",
+      "observed_value": "Mangomint",
+      "source_url": "https://booking.mangomint.com/997767/mueller",
+      "page_title": "Locations – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:07.887539+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [
+        "Public link/widget detected; no reservation submitted or confirmation tested"
+      ],
+      "evidence_excerpt": "BOOK APPOINTMENT"
+    },
+    {
+      "evidence_id": "96b13f61c5d66768612f",
+      "business_id": 87,
+      "observation_type": "booking_provider",
+      "observed_value": "Mangomint",
+      "source_url": "https://booking.mangomint.com/997767/eastsix",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.596454+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [
+        "Public link/widget detected; no reservation submitted or confirmation tested"
+      ],
+      "evidence_excerpt": "BOOK NOW"
+    },
+    {
+      "evidence_id": "6f7279d26b4a688c30dd",
+      "business_id": 87,
+      "observation_type": "booking_link",
+      "observed_value": "BOOK APPOINTMENT",
+      "source_url": "http://www.google.com/maps/place/30.162685130080092,-97.7912961451945",
+      "page_title": "Locations – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:07.887659+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [
+        "Link intent only; functionality requires target inspection"
+      ],
+      "evidence_excerpt": "BOOK APPOINTMENT"
+    },
+    {
+      "evidence_id": "616a33bb5eccb0537be3",
+      "business_id": 87,
+      "observation_type": "structured_business_name",
+      "observed_value": "The Olde Soul",
+      "source_url": "https://oldesoulbarbershop.com/pages/locations",
+      "page_title": "Locations – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:07.893805+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "434ead243dc6ec519abe",
+      "business_id": 87,
+      "observation_type": "contact_channel",
+      "observed_value": "phone",
+      "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.594713+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "fc7b2799362c7fdd451d",
+      "business_id": 87,
+      "observation_type": "booking_link",
+      "observed_value": "BOOK APPOINTMENT",
+      "source_url": "http://www.google.com/maps/place/46.7834818,23.5464733",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.595757+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [
+        "Link intent only; functionality requires target inspection"
+      ],
+      "evidence_excerpt": "BOOK APPOINTMENT"
+    },
+    {
+      "evidence_id": "e9c2068dbacf0b1c28cb",
+      "business_id": 87,
+      "observation_type": "structured_business_name",
+      "observed_value": "The Olde Soul",
+      "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+      "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+      "observed_at": "2026-11-01T11:12:08.606123+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "a6768e7e80df81397482",
+      "business_id": 87,
+      "observation_type": "booking_target_unverified",
+      "observed_value": "inspection_blocked",
+      "source_url": "https://booking.mangomint.com/app.js",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:09.247205+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [],
+      "evidence_excerpt": "inspection_blocked"
+    },
+    {
+      "evidence_id": "a373afd88d203366aca2",
+      "business_id": 87,
+      "observation_type": "booking_target_unverified",
+      "observed_value": "inspection_blocked",
+      "source_url": "https://booking.mangomint.com/997767",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:09.247326+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [],
+      "evidence_excerpt": "inspection_blocked"
+    },
+    {
+      "evidence_id": "00edcf179aecc1ba334c",
+      "business_id": 87,
+      "observation_type": "business_ownership",
+      "observed_value": "unknown",
+      "source_url": "https://oldesoulbarbershop.com",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:09.252428+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [],
+      "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+    },
+    {
+      "evidence_id": "69d3b1775cce7a375a6e",
+      "business_id": 88,
+      "observation_type": "official_website_not_verified",
+      "observed_value": "No verified official website found in checked sources",
+      "source_url": "https://www.openstreetmap.org/node/13854806879",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:10.056841+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [
+        "Search is limited to public structured sources; not_found does not mean no website exists",
+        "Branch/address matching must be verified before outreach"
+      ],
+      "evidence_excerpt": "No verified official website found in checked sources"
+    },
+    {
+      "evidence_id": "ed94ef8652d9e172420f",
+      "business_id": 88,
+      "observation_type": "business_ownership",
+      "observed_value": "unknown",
+      "source_url": "https://www.openstreetmap.org/node/13854806879",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:10.056900+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [],
+      "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+    },
+    {
+      "evidence_id": "561ebf6eb95275831159",
+      "business_id": 89,
+      "observation_type": "official_website_not_verified",
+      "observed_value": "No verified official website found in checked sources",
+      "source_url": "https://www.openstreetmap.org/node/13299887434",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:10.920730+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [
+        "Search is limited to public structured sources; not_found does not mean no website exists",
+        "Branch/address matching must be verified before outreach"
+      ],
+      "evidence_excerpt": "No verified official website found in checked sources"
+    },
+    {
+      "evidence_id": "666c2ef39e5998de6d78",
+      "business_id": 89,
+      "observation_type": "business_ownership",
+      "observed_value": "unknown",
+      "source_url": "https://www.openstreetmap.org/node/13299887434",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:10.920785+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [],
+      "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+    },
+    {
+      "evidence_id": "d9a18a1ba1ef7554e57d",
+      "business_id": 90,
+      "observation_type": "contact_channel",
+      "observed_value": "email",
+      "source_url": "https://www.geiserbarbering.org",
+      "page_title": "Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:11.749332+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "d205bac719d2049d2e67",
+      "business_id": 90,
+      "observation_type": "booking_link",
+      "observed_value": "Schedule Now",
+      "source_url": "https://www.geiserbarbering.org/services/",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:14.291298+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [
+        "Link intent only; functionality requires target inspection"
+      ],
+      "evidence_excerpt": "Schedule Now"
+    },
+    {
+      "evidence_id": "88fc548f508e33fa4a39",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering",
+      "source_url": "https://www.geiserbarbering.org",
+      "page_title": "Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:11.751068+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "4e7930244a6a1399014e",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering ",
+      "source_url": "https://www.geiserbarbering.org",
+      "page_title": "Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:11.751263+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "79408577541fe6c11d67",
+      "business_id": 90,
+      "observation_type": "contact_channel",
+      "observed_value": "email",
+      "source_url": "http://www.geiserbarbering.org",
+      "page_title": "Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:12.668463+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "2509c692c787c3834b23",
+      "business_id": 90,
+      "observation_type": "booking_link",
+      "observed_value": "Schedule Now",
+      "source_url": "http://www.geiserbarbering.org/services/",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:15.313646+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [
+        "Link intent only; functionality requires target inspection"
+      ],
+      "evidence_excerpt": "Schedule Now"
+    },
+    {
+      "evidence_id": "595ab0cbfe881a33c685",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering",
+      "source_url": "http://www.geiserbarbering.org",
+      "page_title": "Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:12.670078+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "f9aa70ba1fdbdd7a951f",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering ",
+      "source_url": "http://www.geiserbarbering.org",
+      "page_title": "Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:12.670201+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "3e0b449281af063cda6c",
+      "business_id": 90,
+      "observation_type": "contact_channel",
+      "observed_value": "email",
+      "source_url": "https://www.geiserbarbering.org/about",
+      "page_title": "About Nick Geiser — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:13.179164+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "4f52a7868a761655b05a",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering",
+      "source_url": "https://www.geiserbarbering.org/about",
+      "page_title": "About Nick Geiser — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:13.180766+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "44d8092b9951e9cc62c6",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering ",
+      "source_url": "https://www.geiserbarbering.org/about",
+      "page_title": "About Nick Geiser — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:13.180899+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "e73f64826bdf04f2ffd4",
+      "business_id": 90,
+      "observation_type": "contact_channel",
+      "observed_value": "email",
+      "source_url": "https://www.geiserbarbering.org/services",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:13.673866+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "f72140bf2346bf73e991",
+      "business_id": 90,
+      "observation_type": "booking_link",
+      "observed_value": "Booking-related link",
+      "source_url": "https://www.schedulista.com/schedule/geiserbarbering1?mode=widget",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:15.313766+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [
+        "Link intent only; functionality requires target inspection"
+      ],
+      "evidence_excerpt": "Booking-related link"
+    },
+    {
+      "evidence_id": "b40ded93de32bf916bfd",
+      "business_id": 90,
+      "observation_type": "booking_link",
+      "observed_value": "Booking-related link",
+      "source_url": "https://www.schedulista.com/schedule/geiserbarbering1/widget.js",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:15.313836+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [
+        "Link intent only; functionality requires target inspection"
+      ],
+      "evidence_excerpt": "Booking-related link"
+    },
+    {
+      "evidence_id": "71aa8f2acf70b14061a5",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering",
+      "source_url": "https://www.geiserbarbering.org/services",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:13.675217+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "cc02a87199fae8a50390",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering ",
+      "source_url": "https://www.geiserbarbering.org/services",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:13.675333+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "1cce74fe0a7b2656fcfc",
+      "business_id": 90,
+      "observation_type": "contact_channel",
+      "observed_value": "email",
+      "source_url": "https://www.geiserbarbering.org/services/",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:14.290758+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "f9e96f72e45dacbcc289",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering",
+      "source_url": "https://www.geiserbarbering.org/services/",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:14.292038+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "0dc4628cdf621c1a6bbb",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering ",
+      "source_url": "https://www.geiserbarbering.org/services/",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:14.292151+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "c477af7c80edacd77e10",
+      "business_id": 90,
+      "observation_type": "contact_channel",
+      "observed_value": "email",
+      "source_url": "http://www.geiserbarbering.org/about",
+      "page_title": "About Nick Geiser — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:14.837757+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "ce3c3e8d2ef5cb128a07",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering",
+      "source_url": "http://www.geiserbarbering.org/about",
+      "page_title": "About Nick Geiser — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:14.840390+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "c3e38ed3f3f222e7d0a9",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering ",
+      "source_url": "http://www.geiserbarbering.org/about",
+      "page_title": "About Nick Geiser — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:14.840597+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "c1f72563e30bc133defb",
+      "business_id": 90,
+      "observation_type": "contact_channel",
+      "observed_value": "email",
+      "source_url": "http://www.geiserbarbering.org/services/",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:15.312875+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Public contact channel present"
+    },
+    {
+      "evidence_id": "d986edd88e398ba64bd3",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering",
+      "source_url": "http://www.geiserbarbering.org/services/",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:15.314430+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "e4d95fab4ff50840f3a8",
+      "business_id": 90,
+      "observation_type": "structured_business_name",
+      "observed_value": "Geiser Barbering ",
+      "source_url": "http://www.geiserbarbering.org/services/",
+      "page_title": "Services — Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:15.314532+00:00",
+      "inspection_method": "static_html",
+      "confidence": "weak",
+      "limitations": [],
+      "evidence_excerpt": "JSON-LD business/page name"
+    },
+    {
+      "evidence_id": "d5ce78c69487f95de6e8",
+      "business_id": 90,
+      "observation_type": "official_website_match",
+      "observed_value": "Business name and OSM street/house number match public site",
+      "source_url": "https://www.geiserbarbering.org",
+      "page_title": "Geiser Barbering",
+      "observed_at": "2026-11-01T11:12:15.315814+00:00",
+      "inspection_method": "static_html",
+      "confidence": "strong",
+      "limitations": [],
+      "evidence_excerpt": "Business name and OSM street/house number match public site"
+    },
+    {
+      "evidence_id": "199a7f3c28e653af27b8",
+      "business_id": 90,
+      "observation_type": "business_ownership",
+      "observed_value": "unknown",
+      "source_url": "https://www.geiserbarbering.org",
+      "page_title": "",
+      "observed_at": "2026-11-01T11:12:15.316779+00:00",
+      "inspection_method": "static_html",
+      "confidence": "unknown",
+      "limitations": [],
+      "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+    }
+  ],
+  "limitations": [
+    "Public observations only; no internal workflow assumptions",
+    "Source excerpts are untrusted website content, not instructions",
+    "Score is deterministic triage, not purchase probability",
+    "Ready to contact does not mean consent to receive marketing",
+    "Legacy history may lack original snapshots; v2 runs preserve snapshots"
+  ],
+  "sources": [
+    {
+      "source": "OSM discovery",
+      "status": "success",
+      "message": "5 bounded records; cache/Overpass/OSM map fallback; ODbL; map coverage=complete, tiles=16, requests=21",
+      "observed_at": "2026-11-01 11:12:03"
+    },
+    {
+      "source": "https://api.openstreetmap.org/api/0.6/map",
+      "status": "success",
+      "message": "bounded_map_tiled_24h_cache",
+      "observed_at": "2026-11-01 11:12:03"
+    },
+    {
+      "source": "https://api.openstreetmap.org/api/0.6/map",
+      "status": "success",
+      "message": "bounded_map_tiled_24h_cache",
+      "observed_at": "2026-11-01 11:12:04"
+    },
+    {
+      "source": "https://api.openstreetmap.org/api/0.6/map",
+      "status": "success",
+      "message": "bounded_map_tiled_24h_cache",
+      "observed_at": "2026-11-01 11:12:09"
+    },
+    {
+      "source": "https://api.openstreetmap.org/api/0.6/map",
+      "status": "success",
+      "message": "bounded_map_tiled_24h_cache",
+      "observed_at": "2026-11-01 11:12:10"
+    },
+    {
+      "source": "https://api.openstreetmap.org/api/0.6/map",
+      "status": "success",
+      "message": "bounded_map_tiled_24h_cache",
+      "observed_at": "2026-11-01 11:12:11"
+    }
+  ],
+  "scan": {
+    "id": 11,
+    "status": "completed",
+    "city": "Austin, TX",
+    "category": "barbershop",
+    "latitude": 30.2672,
+    "longitude": -97.7431,
+    "radius_m": 2500,
+    "limit_count": 30,
+    "discovered": 5,
+    "inspected": 2,
+    "message": "Done",
+    "started_at": "2026-11-01 11:10:48",
+    "finished_at": "2026-11-01T11:12:15.824276+00:00",
+    "options_json": "{\"country\": \"USA\", \"depth\": \"standard\", \"max_pages\": null, \"independent_only\": true, \"opportunity_type\": \"\", \"min_score\": 0, \"min_confidence\": \"unknown\", \"bbox\": null, \"refresh_ids\": [], \"action_source\": \"integration_api\", \"action_request_id\": \"lbi-v03-austin-barber-2500-retry1-20261101\", \"action_payload_hash\": \"4d69c1346a58c6c057fa55867c22670462790ac6823f17eba28f3d6225040603\"}",
+    "processed": 5,
+    "ready_count": 0,
+    "review_count": 4
+  },
+  "businesses": [
+    {
+      "id": 86,
+      "name": "Scruff's Barbershop",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2618329,
+      "lon": -97.7266028,
+      "website": null,
+      "osm_url": "https://www.openstreetmap.org/node/12815243178",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:04",
+      "status": "website_not_verified",
+      "score": 0,
+      "summary": "Official website requires manual discovery; OSM omission is not a sales problem",
+      "findings": [],
+      "intelligence": {
+        "schema_version": "2.0",
+        "collected_at": "2026-11-01T11:12:04.215893+00:00",
+        "evidence": [
+          {
+            "evidence_id": "878e1ecba333eb9da197",
+            "business_id": 86,
+            "observation_type": "official_website_not_verified",
+            "observed_value": "No verified official website found in checked sources",
+            "source_url": "https://www.openstreetmap.org/node/12815243178",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:04.215034+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [
+              "Search is limited to public structured sources; not_found does not mean no website exists",
+              "Branch/address matching must be verified before outreach"
+            ],
+            "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "5d9851cef13008d55888",
+            "business_id": 86,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/12815243178",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:04.215851+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "level": "none",
+          "pages_checked": 0,
+          "pages_found": 0,
+          "manual_review_required": true,
+          "depth": "standard"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "5d9851cef13008d55888"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "unknown",
+          "coverage": "none",
+          "segment": "unable_to_assess",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "Manually verify business identity, workflow and decision maker",
+          "opportunities": [],
+          "booking": {
+            "status": "not_detected_on_sampled_pages",
+            "providers": [],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "website_discovery": {
+          "status": "not_found",
+          "url": null,
+          "confidence": "unknown",
+          "method": "wikidata_public_api",
+          "candidates": [],
+          "limitations": [
+            "Search is limited to public structured sources; not_found does not mean no website exists",
+            "Branch/address matching must be verified before outreach"
+          ]
+        },
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ]
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    },
+    {
+      "id": 87,
+      "name": "Olde Soul Barbershop",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2627303,
+      "lon": -97.7252766,
+      "website": "https://oldesoulbarbershop.com",
+      "osm_url": "https://www.openstreetmap.org/node/12705556807",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:09",
+      "status": "inspected",
+      "score": 0,
+      "summary": "No replacement proposal justified by available public evidence",
+      "findings": [
+        {
+          "type": "booking_provider",
+          "detail": "https://booking.mangomint.com/app.js",
+          "evidence_url": "https://booking.mangomint.com/app.js",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_provider",
+          "detail": "BOOK NOW",
+          "evidence_url": "https://booking.mangomint.com/997767",
+          "confidence": "strong"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_provider",
+          "detail": "LEARN MORE",
+          "evidence_url": "https://booking.mangomint.com/997767?showOnlyScId=11",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-mueller",
+          "confidence": "weak"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+          "confidence": "weak"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/south-park-meadows",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/contact-us",
+          "confidence": "strong"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Contact form present; not submitted",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/contact-us",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/contact-us",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/locations",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_provider",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "https://booking.mangomint.com/997767/mueller",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_provider",
+          "detail": "BOOK NOW",
+          "evidence_url": "https://booking.mangomint.com/997767/eastsix",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "http://www.google.com/maps/place/30.162685130080092,-97.7912961451945",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/locations",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "BOOK APPOINTMENT",
+          "evidence_url": "http://www.google.com/maps/place/46.7834818,23.5464733",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+          "confidence": "weak"
+        },
+        {
+          "type": "booking_target_unverified",
+          "detail": "inspection_blocked",
+          "evidence_url": "https://booking.mangomint.com/app.js",
+          "confidence": "unknown"
+        },
+        {
+          "type": "booking_target_unverified",
+          "detail": "inspection_blocked",
+          "evidence_url": "https://booking.mangomint.com/997767",
+          "confidence": "unknown"
+        },
+        {
+          "type": "business_ownership",
+          "detail": "Ownership cannot be inferred from missing locations page",
+          "evidence_url": "https://oldesoulbarbershop.com",
+          "confidence": "unknown"
+        }
+      ],
+      "intelligence": {
+        "schema_version": "2.0",
+        "identity_verified": false,
+        "collected_at": "2026-11-01T11:12:09.252510+00:00",
+        "evidence": [
+          {
+            "evidence_id": "2522aedb5d63b74440fa",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/app.js",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.592212+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "https://booking.mangomint.com/app.js"
+          },
+          {
+            "evidence_id": "3deba614c59394b5cb02",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/997767",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.593668+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "BOOK NOW"
+          },
+          {
+            "evidence_id": "d1706fb08420c91051e3",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com",
+            "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:05.422896+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "67cd05d5907df07b9860",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/997767?showOnlyScId=11",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.597714+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "LEARN MORE"
+          },
+          {
+            "evidence_id": "445257caa133abe6e1c9",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-mueller",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.597812+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "68c7d6e85668577b5bb4",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.597895+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "0a2b28657a809c59326d",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "https://oldesoulbarbershop.com/pages/south-park-meadows",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.597985+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "0257bb16f897213edcbe",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com",
+            "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:05.433590+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "5a8030baca9704aa3ea7",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/",
+            "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:06.178602+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "87be729c69b964ea0aa3",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/",
+            "page_title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:06.186948+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "2575919b8c77d72ae2ec",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+            "page_title": "About The Olde Soul",
+            "observed_at": "2026-11-01T11:12:06.753599+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "b437dab47072d0f3e49f",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+            "page_title": "About The Olde Soul",
+            "observed_at": "2026-11-01T11:12:06.762097+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "11d0b58a018f392de8e6",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/pages/contact-us",
+            "page_title": "Contact Us – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.300798+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "e527f2b487dc7fc43a23",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "contact_form",
+            "source_url": "https://oldesoulbarbershop.com/pages/contact-us",
+            "page_title": "Contact Us – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.306052+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Contact form present; not submitted"
+          },
+          {
+            "evidence_id": "df710f84c870772c3892",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/pages/contact-us",
+            "page_title": "Contact Us – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.306490+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "41dbd1855294a5b9d274",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/pages/locations",
+            "page_title": "Locations – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.886631+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "21515da1a1ec789f9c01",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/997767/mueller",
+            "page_title": "Locations – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.887539+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "96b13f61c5d66768612f",
+            "business_id": 87,
+            "observation_type": "booking_provider",
+            "observed_value": "Mangomint",
+            "source_url": "https://booking.mangomint.com/997767/eastsix",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.596454+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [
+              "Public link/widget detected; no reservation submitted or confirmation tested"
+            ],
+            "evidence_excerpt": "BOOK NOW"
+          },
+          {
+            "evidence_id": "6f7279d26b4a688c30dd",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "http://www.google.com/maps/place/30.162685130080092,-97.7912961451945",
+            "page_title": "Locations – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.887659+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "616a33bb5eccb0537be3",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/pages/locations",
+            "page_title": "Locations – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:07.893805+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "434ead243dc6ec519abe",
+            "business_id": 87,
+            "observation_type": "contact_channel",
+            "observed_value": "phone",
+            "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.594713+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "fc7b2799362c7fdd451d",
+            "business_id": 87,
+            "observation_type": "booking_link",
+            "observed_value": "BOOK APPOINTMENT",
+            "source_url": "http://www.google.com/maps/place/46.7834818,23.5464733",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.595757+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "BOOK APPOINTMENT"
+          },
+          {
+            "evidence_id": "e9c2068dbacf0b1c28cb",
+            "business_id": 87,
+            "observation_type": "structured_business_name",
+            "observed_value": "The Olde Soul",
+            "source_url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+            "page_title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "observed_at": "2026-11-01T11:12:08.606123+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "a6768e7e80df81397482",
+            "business_id": 87,
+            "observation_type": "booking_target_unverified",
+            "observed_value": "inspection_blocked",
+            "source_url": "https://booking.mangomint.com/app.js",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:09.247205+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "inspection_blocked"
+          },
+          {
+            "evidence_id": "a373afd88d203366aca2",
+            "business_id": 87,
+            "observation_type": "booking_target_unverified",
+            "observed_value": "inspection_blocked",
+            "source_url": "https://booking.mangomint.com/997767",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:09.247326+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "inspection_blocked"
+          },
+          {
+            "evidence_id": "00edcf179aecc1ba334c",
+            "business_id": 87,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://oldesoulbarbershop.com",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:09.252428+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "pages_checked": 6,
+          "pages_found": 10,
+          "homepage_checked": true,
+          "booking_page_checked": false,
+          "faq_checked": false,
+          "external_booking_links_checked": 2,
+          "access_errors": [
+            {
+              "url": "https://booking.mangomint.com/app.js",
+              "status": "inspection_blocked"
+            },
+            {
+              "url": "https://booking.mangomint.com/997767",
+              "status": "inspection_blocked"
+            }
+          ],
+          "manual_review_required": true,
+          "level": "partial",
+          "depth": "standard",
+          "browser_attempted": false,
+          "browser_used": false,
+          "entry_page_checked": true,
+          "booking_links_checked": 2,
+          "scope": "Bounded sampled pages, not a full site audit"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "00edcf179aecc1ba334c"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "strong",
+          "coverage": "partial",
+          "segment": "already_well_equipped",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "No replacement proposal justified by available public evidence",
+          "opportunities": [],
+          "booking": {
+            "status": "provider_or_flow_detected",
+            "providers": [
+              "Mangomint"
+            ],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "pages": [
+          {
+            "url": "https://oldesoulbarbershop.com",
+            "title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/",
+            "title": "Austin Barbershops | Haircuts, Fades & Shaves | Olde Soul Barbershop – The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/pages/about-the-olde-soul",
+            "title": "About The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/pages/contact-us",
+            "title": "Contact Us – The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/pages/locations",
+            "title": "Locations – The Olde Soul",
+            "method": "static_html"
+          },
+          {
+            "url": "https://oldesoulbarbershop.com/pages/olde-soul-barbershop-east",
+            "title": "East Austin Barbershop | Olde Soul Barbershop on East 6th – The Olde Soul",
+            "method": "static_html"
+          }
+        ],
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ],
+        "website_discovery": {
+          "status": "likely",
+          "url": "https://oldesoulbarbershop.com",
+          "confidence": "weak",
+          "method": "osm_website_tag",
+          "candidates": [],
+          "limitations": [
+            "OSM tag is a candidate; ownership still requires site/address confirmation"
+          ]
+        }
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    },
+    {
+      "id": 88,
+      "name": "Sorek Barbershop + Menswear",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2616489,
+      "lon": -97.7229182,
+      "website": null,
+      "osm_url": "https://www.openstreetmap.org/node/13854806879",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:10",
+      "status": "website_not_verified",
+      "score": 0,
+      "summary": "Official website requires manual discovery; OSM omission is not a sales problem",
+      "findings": [],
+      "intelligence": {
+        "schema_version": "2.0",
+        "collected_at": "2026-11-01T11:12:10.056927+00:00",
+        "evidence": [
+          {
+            "evidence_id": "69d3b1775cce7a375a6e",
+            "business_id": 88,
+            "observation_type": "official_website_not_verified",
+            "observed_value": "No verified official website found in checked sources",
+            "source_url": "https://www.openstreetmap.org/node/13854806879",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:10.056841+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [
+              "Search is limited to public structured sources; not_found does not mean no website exists",
+              "Branch/address matching must be verified before outreach"
+            ],
+            "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "ed94ef8652d9e172420f",
+            "business_id": 88,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/13854806879",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:10.056900+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "level": "none",
+          "pages_checked": 0,
+          "pages_found": 0,
+          "manual_review_required": true,
+          "depth": "standard"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "ed94ef8652d9e172420f"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "unknown",
+          "coverage": "none",
+          "segment": "unable_to_assess",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "Manually verify business identity, workflow and decision maker",
+          "opportunities": [],
+          "booking": {
+            "status": "not_detected_on_sampled_pages",
+            "providers": [],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "website_discovery": {
+          "status": "not_found",
+          "url": null,
+          "confidence": "unknown",
+          "method": "wikidata_public_api",
+          "candidates": [],
+          "limitations": [
+            "Search is limited to public structured sources; not_found does not mean no website exists",
+            "Branch/address matching must be verified before outreach"
+          ]
+        },
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ]
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    },
+    {
+      "id": 89,
+      "name": "Barbon's Barbershop",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2626251,
+      "lon": -97.7208527,
+      "website": null,
+      "osm_url": "https://www.openstreetmap.org/node/13299887434",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:10",
+      "status": "website_not_verified",
+      "score": 0,
+      "summary": "Official website requires manual discovery; OSM omission is not a sales problem",
+      "findings": [],
+      "intelligence": {
+        "schema_version": "2.0",
+        "collected_at": "2026-11-01T11:12:10.920810+00:00",
+        "evidence": [
+          {
+            "evidence_id": "561ebf6eb95275831159",
+            "business_id": 89,
+            "observation_type": "official_website_not_verified",
+            "observed_value": "No verified official website found in checked sources",
+            "source_url": "https://www.openstreetmap.org/node/13299887434",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:10.920730+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [
+              "Search is limited to public structured sources; not_found does not mean no website exists",
+              "Branch/address matching must be verified before outreach"
+            ],
+            "evidence_excerpt": "No verified official website found in checked sources"
+          },
+          {
+            "evidence_id": "666c2ef39e5998de6d78",
+            "business_id": 89,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.openstreetmap.org/node/13299887434",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:10.920785+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "level": "none",
+          "pages_checked": 0,
+          "pages_found": 0,
+          "manual_review_required": true,
+          "depth": "standard"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "666c2ef39e5998de6d78"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "unknown",
+          "coverage": "none",
+          "segment": "unable_to_assess",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "Manually verify business identity, workflow and decision maker",
+          "opportunities": [],
+          "booking": {
+            "status": "not_detected_on_sampled_pages",
+            "providers": [],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "website_discovery": {
+          "status": "not_found",
+          "url": null,
+          "confidence": "unknown",
+          "method": "wikidata_public_api",
+          "candidates": [],
+          "limitations": [
+            "Search is limited to public structured sources; not_found does not mean no website exists",
+            "Branch/address matching must be verified before outreach"
+          ]
+        },
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ]
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    },
+    {
+      "id": 90,
+      "name": "Geiser Barbering",
+      "category": "barbershop",
+      "city": "Austin, TX",
+      "country": "USA",
+      "lat": 30.2751986,
+      "lon": -97.7504281,
+      "website": "https://www.geiserbarbering.org",
+      "osm_url": "https://www.openstreetmap.org/node/13541879134",
+      "is_demo": 0,
+      "checked_at": "2026-11-01 11:12:15",
+      "status": "inspected",
+      "score": 0,
+      "summary": "Booking-intent link detected; verify destination and end-to-end flow before proposing changes",
+      "findings": [
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "Schedule Now",
+          "evidence_url": "https://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "http://www.geiserbarbering.org",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "Schedule Now",
+          "evidence_url": "http://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://www.geiserbarbering.org/about",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/about",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/about",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://www.geiserbarbering.org/services",
+          "confidence": "strong"
+        },
+        {
+          "type": "booking_link",
+          "detail": "Booking-related link",
+          "evidence_url": "https://www.schedulista.com/schedule/geiserbarbering1?mode=widget",
+          "confidence": "weak"
+        },
+        {
+          "type": "booking_link",
+          "detail": "Booking-related link",
+          "evidence_url": "https://www.schedulista.com/schedule/geiserbarbering1/widget.js",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/services",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/services",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "https://www.geiserbarbering.org/services/",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "https://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "http://www.geiserbarbering.org/about",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org/about",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org/about",
+          "confidence": "weak"
+        },
+        {
+          "type": "contact_channel",
+          "detail": "Public contact channel present",
+          "evidence_url": "http://www.geiserbarbering.org/services/",
+          "confidence": "strong"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "structured_business_name",
+          "detail": "JSON-LD business/page name",
+          "evidence_url": "http://www.geiserbarbering.org/services/",
+          "confidence": "weak"
+        },
+        {
+          "type": "official_website_match",
+          "detail": "Business name and OSM street/house number match public site",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "strong"
+        },
+        {
+          "type": "business_ownership",
+          "detail": "Ownership cannot be inferred from missing locations page",
+          "evidence_url": "https://www.geiserbarbering.org",
+          "confidence": "unknown"
+        }
+      ],
+      "intelligence": {
+        "schema_version": "2.0",
+        "identity_verified": true,
+        "collected_at": "2026-11-01T11:12:15.316833+00:00",
+        "evidence": [
+          {
+            "evidence_id": "d9a18a1ba1ef7554e57d",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:11.749332+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "d205bac719d2049d2e67",
+            "business_id": 90,
+            "observation_type": "booking_link",
+            "observed_value": "Schedule Now",
+            "source_url": "https://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.291298+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "Schedule Now"
+          },
+          {
+            "evidence_id": "88fc548f508e33fa4a39",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:11.751068+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "4e7930244a6a1399014e",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:11.751263+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "79408577541fe6c11d67",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "http://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:12.668463+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "2509c692c787c3834b23",
+            "business_id": 90,
+            "observation_type": "booking_link",
+            "observed_value": "Schedule Now",
+            "source_url": "http://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.313646+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "Schedule Now"
+          },
+          {
+            "evidence_id": "595ab0cbfe881a33c685",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "http://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:12.670078+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "f9aa70ba1fdbdd7a951f",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "http://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:12.670201+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "3e0b449281af063cda6c",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "https://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.179164+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "4f52a7868a761655b05a",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "https://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.180766+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "44d8092b9951e9cc62c6",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "https://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.180899+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "e73f64826bdf04f2ffd4",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "https://www.geiserbarbering.org/services",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.673866+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "f72140bf2346bf73e991",
+            "business_id": 90,
+            "observation_type": "booking_link",
+            "observed_value": "Booking-related link",
+            "source_url": "https://www.schedulista.com/schedule/geiserbarbering1?mode=widget",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.313766+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "Booking-related link"
+          },
+          {
+            "evidence_id": "b40ded93de32bf916bfd",
+            "business_id": 90,
+            "observation_type": "booking_link",
+            "observed_value": "Booking-related link",
+            "source_url": "https://www.schedulista.com/schedule/geiserbarbering1/widget.js",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.313836+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [
+              "Link intent only; functionality requires target inspection"
+            ],
+            "evidence_excerpt": "Booking-related link"
+          },
+          {
+            "evidence_id": "71aa8f2acf70b14061a5",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "https://www.geiserbarbering.org/services",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.675217+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "cc02a87199fae8a50390",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "https://www.geiserbarbering.org/services",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:13.675333+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "1cce74fe0a7b2656fcfc",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "https://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.290758+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "f9e96f72e45dacbcc289",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "https://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.292038+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "0dc4628cdf621c1a6bbb",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "https://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.292151+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "c477af7c80edacd77e10",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "http://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.837757+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "ce3c3e8d2ef5cb128a07",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "http://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.840390+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "c3e38ed3f3f222e7d0a9",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "http://www.geiserbarbering.org/about",
+            "page_title": "About Nick Geiser — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:14.840597+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "c1f72563e30bc133defb",
+            "business_id": 90,
+            "observation_type": "contact_channel",
+            "observed_value": "email",
+            "source_url": "http://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.312875+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Public contact channel present"
+          },
+          {
+            "evidence_id": "d986edd88e398ba64bd3",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering",
+            "source_url": "http://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.314430+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "e4d95fab4ff50840f3a8",
+            "business_id": 90,
+            "observation_type": "structured_business_name",
+            "observed_value": "Geiser Barbering ",
+            "source_url": "http://www.geiserbarbering.org/services/",
+            "page_title": "Services — Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.314532+00:00",
+            "inspection_method": "static_html",
+            "confidence": "weak",
+            "limitations": [],
+            "evidence_excerpt": "JSON-LD business/page name"
+          },
+          {
+            "evidence_id": "d5ce78c69487f95de6e8",
+            "business_id": 90,
+            "observation_type": "official_website_match",
+            "observed_value": "Business name and OSM street/house number match public site",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "Geiser Barbering",
+            "observed_at": "2026-11-01T11:12:15.315814+00:00",
+            "inspection_method": "static_html",
+            "confidence": "strong",
+            "limitations": [],
+            "evidence_excerpt": "Business name and OSM street/house number match public site"
+          },
+          {
+            "evidence_id": "199a7f3c28e653af27b8",
+            "business_id": 90,
+            "observation_type": "business_ownership",
+            "observed_value": "unknown",
+            "source_url": "https://www.geiserbarbering.org",
+            "page_title": "",
+            "observed_at": "2026-11-01T11:12:15.316779+00:00",
+            "inspection_method": "static_html",
+            "confidence": "unknown",
+            "limitations": [],
+            "evidence_excerpt": "Ownership cannot be inferred from missing locations page"
+          }
+        ],
+        "coverage": {
+          "pages_checked": 6,
+          "pages_found": 8,
+          "homepage_checked": true,
+          "booking_page_checked": false,
+          "faq_checked": false,
+          "external_booking_links_checked": 0,
+          "access_errors": [],
+          "manual_review_required": true,
+          "level": "partial",
+          "depth": "standard",
+          "browser_attempted": false,
+          "browser_used": false,
+          "entry_page_checked": true,
+          "booking_links_checked": 1,
+          "scope": "Bounded sampled pages, not a full site audit"
+        },
+        "ownership": {
+          "type": "unknown",
+          "confidence": "unknown",
+          "reason": "Ownership cannot be inferred from missing locations page",
+          "evidence_ids": [
+            "199a7f3c28e653af27b8"
+          ]
+        },
+        "assessment": {
+          "version": "2.0",
+          "commercial_score": 0,
+          "confidence": "medium",
+          "coverage": "partial",
+          "segment": "needs_research",
+          "components": {
+            "problem_confirmation": 0,
+            "commercial_value": 0,
+            "service_fit": 0,
+            "business_accessibility": 0,
+            "evidence_quality": 0,
+            "implementation_ease": 0
+          },
+          "reasons": [
+            "problem_confirmation: 0/25",
+            "commercial_value: 0/20",
+            "service_fit: 0/20",
+            "business_accessibility: 0/15",
+            "evidence_quality: 0/10",
+            "implementation_ease: 0/10"
+          ],
+          "limitations": [
+            "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+            "No form submitted, payment made or booking confirmation tested"
+          ],
+          "next_action": "Booking-intent link detected; verify destination and end-to-end flow before proposing changes",
+          "opportunities": [],
+          "booking": {
+            "status": "link_detected",
+            "providers": [],
+            "policies": [],
+            "end_to_end_verified": false
+          }
+        },
+        "pages": [
+          {
+            "url": "https://www.geiserbarbering.org",
+            "title": "Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "http://www.geiserbarbering.org",
+            "title": "Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "https://www.geiserbarbering.org/about",
+            "title": "About Nick Geiser — Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "https://www.geiserbarbering.org/services",
+            "title": "Services — Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "https://www.geiserbarbering.org/services/",
+            "title": "Services — Geiser Barbering",
+            "method": "static_html"
+          },
+          {
+            "url": "http://www.geiserbarbering.org/about",
+            "title": "About Nick Geiser — Geiser Barbering",
+            "method": "static_html"
+          }
+        ],
+        "limitations": [
+          "Internal reminders, notifications, integrations and customer workflow cannot be established from public pages",
+          "No form submitted, payment made or booking confirmation tested"
+        ],
+        "website_discovery": {
+          "status": "verified",
+          "url": "https://www.geiserbarbering.org",
+          "confidence": "strong",
+          "method": "osm_website_tag",
+          "candidates": [],
+          "limitations": [
+            "OSM tag is a candidate; ownership still requires site/address confirmation"
+          ]
+        }
+      },
+      "commercial_score": 0,
+      "matches_filters": false,
+      "report_section": "not_suitable"
+    }
+  ],
+  "notice": "An undetected feature is not a verified deficiency.",
+  "attribution": "© OpenStreetMap contributors — ODbL",
+  "mirror_published_at": "2026-11-01T11:12:42.987681+00:00"
+}
