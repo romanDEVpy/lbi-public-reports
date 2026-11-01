@@ -1,8 +1,8 @@
 {
   "report_schema_version": "2.0",
-  "scan_id": 6,
-  "generated_at": "2026-11-01T09:28:40.740669+00:00",
-  "data_collected_at": "2026-11-01T08:27:10.668389+00:00",
+  "scan_id": 7,
+  "generated_at": "2026-11-01T09:31:27.518162+00:00",
+  "data_collected_at": "2026-11-01T09:29:38.755793+00:00",
   "source_attribution": "© OpenStreetMap contributors — ODbL; public business pages; Wikidata (CC0)",
   "inspection_summary": {
     "unable_to_assess": 9,
@@ -6776,101 +6776,101 @@
       "source": "OSM discovery",
       "status": "success",
       "message": "15 bounded records; cache/Overpass/OSM map fallback; ODbL",
-      "observed_at": "2026-11-01 08:27:02"
+      "observed_at": "2026-11-01 09:29:31"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:03"
+      "observed_at": "2026-11-01 09:29:31"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:03"
+      "observed_at": "2026-11-01 09:29:31"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:04"
+      "observed_at": "2026-11-01 09:29:32"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:04"
+      "observed_at": "2026-11-01 09:29:32"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:05"
+      "observed_at": "2026-11-01 09:29:33"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:05"
+      "observed_at": "2026-11-01 09:29:33"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:06"
+      "observed_at": "2026-11-01 09:29:34"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:06"
+      "observed_at": "2026-11-01 09:29:34"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:07"
+      "observed_at": "2026-11-01 09:29:35"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:07"
+      "observed_at": "2026-11-01 09:29:35"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:08"
+      "observed_at": "2026-11-01 09:29:36"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:08"
+      "observed_at": "2026-11-01 09:29:36"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:09"
+      "observed_at": "2026-11-01 09:29:37"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:09"
+      "observed_at": "2026-11-01 09:29:37"
     },
     {
       "source": "https://api.openstreetmap.org/api/0.6/map",
       "status": "success",
       "message": "bounded_map_24h_cache",
-      "observed_at": "2026-11-01 08:27:10"
+      "observed_at": "2026-11-01 09:29:38"
     }
   ],
   "scan": {
-    "id": 6,
+    "id": 7,
     "status": "completed",
     "city": "Austin, TX",
     "category": "restaurant",
@@ -6881,9 +6881,9 @@
     "discovered": 15,
     "inspected": 11,
     "message": "Done",
-    "started_at": "2026-11-01 08:27:02",
-    "finished_at": "2026-11-01T08:27:10.668389+00:00",
-    "options_json": "{\"country\": \"USA\", \"depth\": \"standard\", \"max_pages\": null, \"independent_only\": false, \"opportunity_type\": \"\", \"min_score\": 0, \"min_confidence\": \"unknown\", \"bbox\": null, \"refresh_ids\": [], \"action_source\": \"gpt_actions\", \"action_request_id\": \"setup-smoke-20261101-austin-v1\", \"action_payload_hash\": \"e04c046b46e907c318672825125df95c637b1d6afe24ce25c1596ab9df8e133e\"}",
+    "started_at": "2026-11-01 09:29:31",
+    "finished_at": "2026-11-01T09:29:38.755793+00:00",
+    "options_json": "{\"country\": \"USA\", \"depth\": \"standard\", \"max_pages\": null, \"independent_only\": false, \"opportunity_type\": \"\", \"min_score\": 0, \"min_confidence\": \"unknown\", \"bbox\": null, \"refresh_ids\": [], \"action_source\": \"integration_api\", \"action_request_id\": \"api-v1-acceptance-20261101-01\", \"action_payload_hash\": \"3e67b10eabe0ae2becdc2eac896e0baeac893f74df1271562c9bf558ffa907b8\"}",
     "processed": 15,
     "ready_count": 0,
     "review_count": 11
@@ -11531,5 +11531,5 @@
   ],
   "notice": "An undetected feature is not a verified deficiency.",
   "attribution": "© OpenStreetMap contributors — ODbL",
-  "mirror_published_at": "2026-11-01T09:28:40.750107+00:00"
+  "mirror_published_at": "2026-11-01T09:31:27.524215+00:00"
 }
