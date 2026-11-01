@@ -1,8 +1,8 @@
 # Local Business Intelligence — latest report
 
-Schema: 2.0; scan: 7
-Report generated (UTC): 2026-11-01T10:32:21.969163+00:00
-Data collection completed (UTC): 2026-11-01T09:29:38.755793+00:00
+Schema: 2.0; scan: 9
+Report generated (UTC): 2026-11-01T10:47:55.493201+00:00
+Data collection completed (UTC): 2026-11-01T10:45:14.207789+00:00
 Data: © OpenStreetMap contributors (ODbL) — https://www.openstreetmap.org/copyright
 **Caution:** An undetected feature is not a verified deficiency. Scores are not buying probabilities.
 
@@ -12,31 +12,147 @@ None in this scan.
 
 # NEEDS MANUAL REVIEW
 
-## Lead 10: Sushi Junai Omakase
+## Lead 83: Ruiz Salon
 - Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: http://sushijunaiomakase.com/; discovery: likely
-- OSM source: https://www.openstreetmap.org/node/9517424344
-- Commercial score: 23/100; confidence: weak; coverage: partial
-- Sampled pages: 1 / found 1; homepage True; booking page False; FAQ False
+- Category: barbershop; ownership: independent_local (strong)
+- Official website: https://ruizsalon.com/locations/; discovery: verified
+- OSM source: https://www.openstreetmap.org/node/8220261375
+- Commercial score: 31/100; confidence: weak; coverage: partial
+- Sampled pages: 6 / found 15; homepage False; booking page False; FAQ True
 - External booking links checked: 1; manual review: True
 - Booking: unknown; providers: none detected (not proof of absence)
 - Policies: unknown
-- Collected: 2026-10-31T21:30:11.269732+00:00
+- Collected: 2026-11-01T10:45:07.231593+00:00
 - Recommendation: Manually verify business identity, workflow and decision maker
 
 ### Opportunities
-- restaurant_booking [hypothesis, weak]: Discuss whether online scheduling fits the owner’s policy and existing workflow; evidence: 3b2dcf4b2010258c40dd
+- appointment_scheduling [hypothesis, weak]: Discuss whether online scheduling fits the owner’s policy and existing workflow; evidence: 4fcf98768dcb97e06222
 ### Evidence
-- 0e43cbcfb5085e525f22 [weak] booking_link: Reservation — http://sushijunaiomakase.com/ (page: Sushi Junai Omakase; 2026-10-31T21:30:11.071298+00:00; static_html)
+- 81f0670946dc4c2c54a0 [weak] booking_link: Book — https://ruizsalons.zenoti.com/webstoreNew/services (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.221698+00:00; static_html)
   - Limitation: Link intent only; functionality requires target inspection
-- b6862148af36002cfd1f [weak] booking_link: Reservations Reservations are accepted up to one month in advance and can be made online or by phone at (\[phone redacted\] Monday through Saturday. There is a cork fee of $30 if you want to bring your own bottle of wine. &lt;a href=https://www.yelp.com/reservations/sushi-junai-omakase-austin-2&gt;Reserve at Sushi Junai Omakase on Yelp&lt;/a&gt; Cancellation — http://www.yelp.com/reservations/sushi-junai-omakase-austin-2/widget?orientation=horizontal&color-scheme=dark (page: Sushi Junai Omakase; 2026-10-31T21:30:11.071782+00:00; static_html)
+- 310f29827175dd3c80a4 [weak] booking_link: Book Appointment — https://ruizsalons.zenoti.com/webstoreNew/services (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.222784+00:00; static_html)
   - Limitation: Link intent only; functionality requires target inspection
-- 4ce7705fc204e251eea6 [strong] contact_channel: Contact form present; not submitted — http://sushijunaiomakase.com/ (page: Sushi Junai Omakase; 2026-10-31T21:30:11.072881+00:00; static_html)
-- ff8e12a0be964b64a48a [unknown] booking_target_unverified: inspection_blocked — http://www.yelp.com/reservations/sushi-junai-omakase-austin-2/widget?orientation=horizontal&color-scheme=dark (page: unknown; 2026-10-31T21:30:11.268565+00:00; static_html)
-- 3b2dcf4b2010258c40dd [weak] booking_not_detected: No booking controls detected on 1 sampled pages — http://sushijunaiomakase.com/ (page: unknown; 2026-10-31T21:30:11.269108+00:00; static_html)
+- 86e23f5123e4cb3bb576 [weak] booking_link: Policies — https://ruizsalon.com/book-now-old/policies/ (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.222845+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 88e9fe5608c2895b4121 [weak] booking_link: BOOK — https://ruizsalons.zenoti.com/webstoreNew/services (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.222491+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 817bcd1909255105d79e [weak] booking_link: Book Now Gift Cards Shop Local \[phone redacted\] — https://ruizsalons.zenoti.com/webstoreNew/services (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.222583+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- b3659f489948aad76a3d [strong] contact_channel: Public contact channel present — https://ruizsalon.com/locations/ (page: Locations | Ruiz Salon Austin | Hyde Park & Seaholm; 2026-11-01T10:44:59.633734+00:00; static_html)
+- 7b081ad1f7d3d89d98e9 [weak] booking_link: View More Book Online — https://ruizsalons.zenoti.com/webstoreNew/services/d3869202-37b2-4afd-be9c-eb71166791bd (page: Locations | Ruiz Salon Austin | Hyde Park & Seaholm; 2026-11-01T10:44:59.633603+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 7c49b8d79d1ede644d41 [weak] booking_link: View More Book Online — https://ruizsalons.zenoti.com/webstoreNew/services/3e4cdb97-0ce5-4a80-9a70-dc2b7629cbe2 (page: Locations | Ruiz Salon Austin | Hyde Park & Seaholm; 2026-11-01T10:44:59.633700+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- ae872b41ab182df9158e [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/locations/ (page: Locations | Ruiz Salon Austin | Hyde Park & Seaholm; 2026-11-01T10:44:59.638358+00:00; static_html)
+- 8aebc5a5e80ea3157a6d [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/locations/ (page: Locations | Ruiz Salon Austin | Hyde Park & Seaholm; 2026-11-01T10:44:59.638381+00:00; static_html)
+- 89829abb4027ebb9881b [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/locations/ (page: Locations | Ruiz Salon Austin | Hyde Park & Seaholm; 2026-11-01T10:44:59.638395+00:00; static_html)
+- 8f5dafc76b1147e6dde0 [strong] contact_channel: Public contact channel present — https://ruizsalon.com/about/faqs/ (page: FAQs | Ruiz Salon Austin | Your Questions Answered; 2026-11-01T10:45:02.548773+00:00; static_html)
+- a524e5d8bce547641efe [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/faqs/ (page: FAQs | Ruiz Salon Austin | Your Questions Answered; 2026-11-01T10:45:02.554883+00:00; static_html)
+- c36cfdf7786d69d4e778 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/faqs/ (page: FAQs | Ruiz Salon Austin | Your Questions Answered; 2026-11-01T10:45:02.554915+00:00; static_html)
+- 2e37ae007b0cabcd7eb2 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/faqs/ (page: FAQs | Ruiz Salon Austin | Your Questions Answered; 2026-11-01T10:45:02.554930+00:00; static_html)
+- 879967a003222925d7cc [strong] contact_channel: Public contact channel present — https://ruizsalon.com/about/ (page: About Ruiz Salon | Austin's Hair Experts | 25 Years Experience; 2026-11-01T10:45:03.049857+00:00; static_html)
+- 81c9abc35a9a945f6970 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/ (page: About Ruiz Salon | Austin's Hair Experts | 25 Years Experience; 2026-11-01T10:45:03.055958+00:00; static_html)
+- 6b5b7a13f123a73c9f77 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/ (page: About Ruiz Salon | Austin's Hair Experts | 25 Years Experience; 2026-11-01T10:45:03.055987+00:00; static_html)
+- b09c452d6e163a982dd9 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/ (page: About Ruiz Salon | Austin's Hair Experts | 25 Years Experience; 2026-11-01T10:45:03.056007+00:00; static_html)
+- f13a8e7e2ffc089d54ca [strong] contact_channel: Public contact channel present — https://ruizsalon.com/about/blog/ (page: Ruiz Salon Blog | Hair Tips & Trends | Austin's Style Experts; 2026-11-01T10:45:04.447045+00:00; static_html)
+- 96e76bcb920f4708a079 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/blog/ (page: Ruiz Salon Blog | Hair Tips & Trends | Austin's Style Experts; 2026-11-01T10:45:04.453825+00:00; static_html)
+- c84f724ad88ccc6dd0de [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/blog/ (page: Ruiz Salon Blog | Hair Tips & Trends | Austin's Style Experts; 2026-11-01T10:45:04.454204+00:00; static_html)
+- 6c5410c54662d4c93710 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/blog/ (page: Ruiz Salon Blog | Hair Tips & Trends | Austin's Style Experts; 2026-11-01T10:45:04.454233+00:00; static_html)
+- 16d76f9dd7762433b0b2 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/blog/ (page: Ruiz Salon Blog | Hair Tips & Trends | Austin's Style Experts; 2026-11-01T10:45:04.454258+00:00; static_html)
+- f98846bddadb9595beab [strong] contact_channel: Public contact channel present — https://ruizsalon.com/about/contact/ (page: Contact Ruiz Salon | Book Your Appointment | Two Austin Locations; 2026-11-01T10:45:04.838935+00:00; static_html)
+- 6fb1e6f18c5755c56f60 [strong] contact_channel: Public contact channel present — https://ruizsalon.com/about/contact/ (page: Contact Ruiz Salon | Book Your Appointment | Two Austin Locations; 2026-11-01T10:45:04.838890+00:00; static_html)
+- 63711648313fb881a62a [strong] contact_channel: Contact form present; not submitted — https://ruizsalon.com/about/contact/ (page: Contact Ruiz Salon | Book Your Appointment | Two Austin Locations; 2026-11-01T10:45:04.846448+00:00; static_html)
+- e09a2d55cc1c9b483486 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/contact/ (page: Contact Ruiz Salon | Book Your Appointment | Two Austin Locations; 2026-11-01T10:45:04.846785+00:00; static_html)
+- 3bd9d10a84f097b23a00 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/contact/ (page: Contact Ruiz Salon | Book Your Appointment | Two Austin Locations; 2026-11-01T10:45:04.846803+00:00; static_html)
+- 7f0f83c7e9cda3d72a3c [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/contact/ (page: Contact Ruiz Salon | Book Your Appointment | Two Austin Locations; 2026-11-01T10:45:04.846816+00:00; static_html)
+- 70da26306cb2660e815a [strong] contact_channel: Public contact channel present — https://ruizsalon.com/about/donation/ (page: Ruiz Salon Gives Back | Community Support | Austin's Top Salon; 2026-11-01T10:45:06.160112+00:00; static_html)
+- 1248f4fd8089b66ec154 [strong] contact_channel: Public contact channel present — https://ruizsalon.com/about/donation/ (page: Ruiz Salon Gives Back | Community Support | Austin's Top Salon; 2026-11-01T10:45:06.159731+00:00; static_html)
+- f946f83d61744d366cea [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/donation/ (page: Ruiz Salon Gives Back | Community Support | Austin's Top Salon; 2026-11-01T10:45:06.164487+00:00; static_html)
+- ff03a421c1d2cce6c8c9 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/donation/ (page: Ruiz Salon Gives Back | Community Support | Austin's Top Salon; 2026-11-01T10:45:06.164507+00:00; static_html)
+- 0a020fbf04d5cf6e8433 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/about/donation/ (page: Ruiz Salon Gives Back | Community Support | Austin's Top Salon; 2026-11-01T10:45:06.164520+00:00; static_html)
+- 7ea116eaac1a14b6d7a1 [unknown] booking_target_unverified: inspection_blocked — https://ruizsalons.zenoti.com/webstoreNew/services (page: unknown; 2026-11-01T10:45:07.127084+00:00; static_html)
+- 477c303a6e4d4d9696c5 [weak] booking_link: Skip to content Services Services Meet Your Aveda Artist Book Gift Cards Book Appointment Meet Your Aveda Artist Policies About About Us Careers Hyde Park Reviews Seaholm Reviews Contact Our Work Donation Blog FAQs Careers Gifts and Offers See All Offers M(e) Memberships New Guest Offer Aveda Plus Rewards Shop Local Gift Cards Shop Aveda at SmithRu — https://ruizsalon.com/book-now-old/policies/ (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.221557+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 8528683d5f9ecc853b93 [strong] contact_channel: Public contact channel present — https://ruizsalon.com/book-now-old/policies/ (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.222898+00:00; static_html)
+- 16a3b05c362d8af0d26a [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/book-now-old/policies/ (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.226957+00:00; static_html)
+- 88593e40df07428946e4 [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/book-now-old/policies/ (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.226976+00:00; static_html)
+- 06e4350b694ffbc88dba [weak] structured_business_name: JSON-LD business/page name — https://ruizsalon.com/book-now-old/policies/ (page: Salon Policies | Ruiz Salon Austin | Guest Information; 2026-11-01T10:45:07.226989+00:00; static_html)
+- 4fcf98768dcb97e06222 [weak] booking_not_detected: No booking controls detected on 6 sampled pages — https://ruizsalon.com/locations/ (page: unknown; 2026-11-01T10:45:07.228238+00:00; static_html)
   - Limitation: Absence of detection is not absence of functionality
-- 3e70947103df3f23a3c9 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — http://sushijunaiomakase.com/ (page: unknown; 2026-10-31T21:30:11.269696+00:00; static_html)
+- 2337b9ed5fd9c78d1e1f [strong] official_website_match: Business name and OSM street/house number match public site — https://ruizsalon.com/locations/ (page: Locations | Ruiz Salon Austin | Hyde Park & Seaholm; 2026-11-01T10:45:07.229928+00:00; static_html)
+- 6b24e2efb9ae297a612e [strong] business_ownership: Explicit local/independent ownership statement — https://ruizsalon.com/locations/ (page: unknown; 2026-11-01T10:45:07.231522+00:00; static_html)
+### Scoring and limitations
+- problem_confirmation: 2/25
+- commercial_value: 6/20
+- service_fit: 8/20
+- business_accessibility: 10/15
+- evidence_quality: 2/10
+- implementation_ease: 3/10
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- OSM tag is a candidate; ownership still requires site/address confirmation
+
+# ALREADY EQUIPPED
+
+None in this scan.
+
+# UNABLE TO INSPECT
+
+None in this scan.
+
+# EXCLUDED / LOW PRIORITY
+
+## Lead 79: Janet St. Paul Studio for Hair and Beauty
+- Country / city: USA / Austin, TX
+- Category: barbershop; ownership: unknown (unknown)
+- Official website: https://janetstpaul.com/; discovery: verified
+- OSM source: https://www.openstreetmap.org/node/8178233809
+- Commercial score: 23/100; confidence: weak; coverage: partial
+- Sampled pages: 6 / found 9; homepage True; booking page False; FAQ False
+- External booking links checked: 2; manual review: True
+- Booking: unknown; providers: none detected (not proof of absence)
+- Policies: unknown
+- Collected: 2026-11-01T10:44:55.545594+00:00
+- Recommendation: Manually verify business identity, workflow and decision maker
+
+- Outside requested report filters; evidence retained for research.
+
+### Opportunities
+- appointment_scheduling [hypothesis, weak]: Discuss whether online scheduling fits the owner’s policy and existing workflow; evidence: 8bfe84e1eb8253844c0f
+### Evidence
+- bc1000c9f8b406c80ec3 [strong] contact_channel: Public contact channel present — https://janetstpaul.com/ (page: Janet St. Paul Studio for Hair & Beauty - Hair Salon in Austin TX; 2026-11-01T10:44:48.099868+00:00; static_html)
+- 8c945948c430ce6a0a74 [weak] booking_link: Book Now — https://app.salonrunner.com/customer/index.jsp?id=27433 (page: Wedding Hair Downtown Austin | Wedding Hair Stylist Austin | Bridal Hair Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:54.029717+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- cdf4994e622df2a10761 [weak] booking_link: $25 Off Your First Appointment — https://offers.janetstpaul.salonmarketer.io/landing-page442070625925 (page: Wedding Hair Downtown Austin | Wedding Hair Stylist Austin | Bridal Hair Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:54.029821+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 3af0ff262e02e3b1082e [weak] booking_link: $25 OFF YOUR FIRST APPOINTMENT — https://janetstpaul.com/haircuts (page: Wedding Hair Downtown Austin | Wedding Hair Stylist Austin | Bridal Hair Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:54.030771+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 990dfe295e26f7353b14 [weak] booking_link: BOOK NOW — https://offers.janetstpaul.salonmarketer.io/landing-page442070625925 (page: Wedding Hair Downtown Austin | Wedding Hair Stylist Austin | Bridal Hair Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:54.030818+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 192040213f5f08065d97 [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/ (page: Janet St. Paul Studio for Hair & Beauty - Hair Salon in Austin TX; 2026-11-01T10:44:48.105631+00:00; static_html)
+- 2d58612e896f13d12ed2 [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/ (page: Janet St. Paul Studio for Hair & Beauty - Hair Salon in Austin TX; 2026-11-01T10:44:48.105613+00:00; static_html)
+- b7ce8aea70aaab833e9c [strong] contact_channel: Public contact channel present — https://janetstpaul.com/contact/ (page: Contact Us - Janet St. Paul Studio For Hair and Beauty; 2026-11-01T10:44:49.096829+00:00; static_html)
+- c9198a1b866a5aae7452 [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/contact/ (page: Contact Us - Janet St. Paul Studio For Hair and Beauty; 2026-11-01T10:44:49.102408+00:00; static_html)
+- 085289ba1431a49d3372 [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/contact/ (page: Contact Us - Janet St. Paul Studio For Hair and Beauty; 2026-11-01T10:44:49.102431+00:00; static_html)
+- 32748f08335e50195851 [weak] booking_link: Book Consultation — http://Whether%20you%20are%20interested%20in%20a%20Women’s%20or%20Men’s%20Haircut,%20you%20can%20expect%20to%20receive%20the%20quality,%20attention%20and%20expertise%20characteristic%20of%20downtown%20Manhattan’s%20finest%20salons,%20but%20delivered%20with%20gracious%20hospitality%20in%20the%20comfort%20and%20convenience%20of%20downtown%20Austin,%20Texas. (page: Haircut Downtown Austin | Hair Styling Austin | Beauty Salon Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:50.537377+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 0f647779627cab4f6450 [strong] contact_channel: Public contact channel present — https://janetstpaul.com/haircuts/ (page: Haircut Downtown Austin | Hair Styling Austin | Beauty Salon Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:50.538198+00:00; static_html)
+- ee2459cf312e5308322f [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/haircuts/ (page: Haircut Downtown Austin | Hair Styling Austin | Beauty Salon Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:50.539642+00:00; static_html)
+- 801454071adbcb904a24 [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/haircuts/ (page: Haircut Downtown Austin | Hair Styling Austin | Beauty Salon Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:50.539667+00:00; static_html)
+- dd6079b496135dd12c57 [strong] contact_channel: Public contact channel present — https://janetstpaul.com/services/ (page: Salon Services Downtown Austin | Salon And Spa Austin | Beauty Salon Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:52.665360+00:00; static_html)
+- 8e7f1c7511223d4d3da8 [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/services/ (page: Salon Services Downtown Austin | Salon And Spa Austin | Beauty Salon Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:52.667138+00:00; static_html)
+- 82b8eb22fcfd4e736280 [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/services/ (page: Salon Services Downtown Austin | Salon And Spa Austin | Beauty Salon Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:52.667164+00:00; static_html)
+- 0c46a44c3a04fb344a80 [weak] booking_link: Book Consultation — https://janetstpaul.com/contact/ (page: Wedding Hair Downtown Austin | Wedding Hair Stylist Austin | Bridal Hair Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:54.029427+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- f0af8663c4f0cceef8c2 [strong] contact_channel: Public contact channel present — https://janetstpaul.com/weddings/ (page: Wedding Hair Downtown Austin | Wedding Hair Stylist Austin | Bridal Hair Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:54.030225+00:00; static_html)
+- 4f7f403a888a7cd74a02 [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/weddings/ (page: Wedding Hair Downtown Austin | Wedding Hair Stylist Austin | Bridal Hair Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:54.031636+00:00; static_html)
+- abb85d65be6633161d30 [weak] structured_business_name: JSON-LD business/page name — https://janetstpaul.com/weddings/ (page: Wedding Hair Downtown Austin | Wedding Hair Stylist Austin | Bridal Hair Texas - Janet St. Paul Studio For Hair; 2026-11-01T10:44:54.031659+00:00; static_html)
+- 8bfe84e1eb8253844c0f [weak] booking_not_detected: No booking controls detected on 6 sampled pages — https://janetstpaul.com/ (page: unknown; 2026-11-01T10:44:55.541663+00:00; static_html)
+  - Limitation: Absence of detection is not absence of functionality
+- a96a9c23b3bb1769b611 [strong] official_website_match: Business name and OSM street/house number match public site — https://janetstpaul.com/ (page: Janet St. Paul Studio for Hair & Beauty - Hair Salon in Austin TX; 2026-11-01T10:44:55.543408+00:00; static_html)
+- 5ad47da94e0d3fafcb92 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://janetstpaul.com/ (page: unknown; 2026-11-01T10:44:55.545530+00:00; static_html)
 ### Scoring and limitations
 - problem_confirmation: 2/25
 - commercial_value: 6/20
@@ -50,616 +166,109 @@ None in this scan.
 - No form submitted, payment made or booking confirmation tested
 - OSM tag is a candidate; ownership still requires site/address confirmation
 
-## Lead 13: Wax Myrtle's Club & Pool
+## Lead 84: Deseo Salon
 - Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: https://www.waxmyrtles.com/; discovery: likely
-- OSM source: https://www.openstreetmap.org/way/1021003040
-- Commercial score: 0/100; confidence: conflicting; coverage: partial
-- Sampled pages: 4 / found 4; homepage True; booking page False; FAQ False
-- External booking links checked: 0; manual review: True
-- Booking: detected; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:30:18.029927+00:00
-- Recommendation: No replacement proposal justified by available public evidence
-
-### Opportunities
-### Evidence
-- 217970e23ef1704d9bd2 [strong] contact_channel: Public contact channel present — https://www.arribaabajoatx.com/ (page: Arriba Abajo | Rooftop Cantina in Austin, TX; 2026-10-31T21:30:17.138580+00:00; static_html)
-- 6538d339fda4ef917171 [strong] non_booking_widget: Buy Gift Cards — https://www.arribaabajoatx.com/ (page: Arriba Abajo | Rooftop Cantina in Austin, TX; 2026-10-31T21:30:17.138762+00:00; static_html)
-- 693cebe0e6445d35ff67 [strong] non_booking_widget: Email Signup — https://www.arribaabajoatx.com/ (page: Arriba Abajo | Rooftop Cantina in Austin, TX; 2026-10-31T21:30:17.139088+00:00; static_html)
-- 34aae052d9dc8c0a69f6 [strong] booking_form: Public booking controls: date, time, guests — https://www.arribaabajoatx.com/ (page: Arriba Abajo | Rooftop Cantina in Austin, TX; 2026-10-31T21:30:17.141170+00:00; static_html)
-  - Limitation: Controls observed only; submission and confirmation not tested
-- 119f78ec1978e836b3d6 [weak] structured_business_name: JSON-LD business/page name — https://www.arribaabajoatx.com/ (page: Arriba Abajo | Rooftop Cantina in Austin, TX; 2026-10-31T21:30:17.141658+00:00; static_html)
-- 32544737122d179516be [strong] contact_channel: Public contact channel present — https://www.arribaabajoatx.com/about/ (page: About | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.460978+00:00; static_html)
-- 37ee51af594309c459fc [strong] non_booking_widget: Gift Cards — https://www.arribaabajoatx.com/about/ (page: About | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.460664+00:00; static_html)
-- 6b9e57ff8d81a2a760fb [strong] non_booking_widget: Email Signup — https://www.arribaabajoatx.com/about/ (page: About | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.461488+00:00; static_html)
-- 19a13a1416a6192e3a06 [strong] booking_form: Public booking controls: date, time, guests — https://www.arribaabajoatx.com/about/ (page: About | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.463236+00:00; static_html)
-  - Limitation: Controls observed only; submission and confirmation not tested
-- cfc47eeac29b9abfafd7 [weak] structured_business_name: JSON-LD business/page name — https://www.arribaabajoatx.com/about/ (page: About | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.463434+00:00; static_html)
-- 263668bc702a22b5128b [strong] contact_channel: Public contact channel present — https://www.arribaabajoatx.com/contact/ (page: Contact | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.772102+00:00; static_html)
-- bb8c91951ebd1be33ef4 [strong] non_booking_widget: Gift Cards — https://www.arribaabajoatx.com/contact/ (page: Contact | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.771787+00:00; static_html)
-- c41e43522d8c81077cfa [strong] non_booking_widget: Email Signup — https://www.arribaabajoatx.com/contact/ (page: Contact | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.772453+00:00; static_html)
-- d32b8fe431a0360b807d [strong] contact_channel: Contact form present; not submitted — https://www.arribaabajoatx.com/contact/ (page: Contact | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.774016+00:00; static_html)
-- 12cd495c98305c381c2c [strong] booking_form: Public booking controls: date, time, guests — https://www.arribaabajoatx.com/contact/ (page: Contact | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.774583+00:00; static_html)
-  - Limitation: Controls observed only; submission and confirmation not tested
-- 57b736e3b52baf16344a [weak] structured_business_name: JSON-LD business/page name — https://www.arribaabajoatx.com/contact/ (page: Contact | Arriba Abajo in Austin, TX; 2026-10-31T21:30:17.774768+00:00; static_html)
-- 9e84b5110715879be2f3 [weak] identity_mismatch: Redirected domain/title does not match known business name — https://www.arribaabajoatx.com/ (page: Arriba Abajo | Rooftop Cantina in Austin, TX; 2026-10-31T21:30:18.027613+00:00; static_html)
-- ca1a1d75af4cc1161d20 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.arribaabajoatx.com/ (page: unknown; 2026-10-31T21:30:18.029859+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Website identity may not match the OSM business
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Website identity may not match the OSM business
-- OSM tag is a candidate; ownership still requires site/address confirmation
-
-# ALREADY EQUIPPED
-
-## Lead 9: Swift's Attic
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: https://swiftsattic.com/; discovery: likely
-- OSM source: https://www.openstreetmap.org/node/6039911718
-- Commercial score: 0/100; confidence: strong; coverage: partial
-- Sampled pages: 4 / found 4; homepage True; booking page True; FAQ False
-- External booking links checked: 1; manual review: True
-- Booking: detected; providers: OpenTable
-- Policies: unknown
-- Collected: 2026-10-31T21:30:09.405103+00:00
-- Recommendation: No replacement proposal justified by available public evidence
-
-### Opportunities
-### Evidence
-- 624fb303fa11d3753817 [weak] ambiguous_widget: Order — https://www.toasttab.com/swifts-attic-315-congress-avenue (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:55.111191+00:00; static_html)
-  - Limitation: Provider domain alone does not establish purpose
-- 7119ce0f4f12d57bf208 [strong] non_booking_widget: SHOP GIFT CARDS — https://swiftsattic.com/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:53.624020+00:00; static_html)
-- a91738fa267195b21322 [weak] booking_link: Reservations — https://swiftsattic.com/reservations/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:55.111303+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 54aac41f79b349be3331 [weak] booking_link: RESERVATIONS — https://swiftsattic.com/reservations/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:53.623960+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 0cee6e80dc72322506d0 [strong] contact_channel: Public contact channel present — https://swiftsattic.com/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:53.624038+00:00; static_html)
-- 158194723744b9082adc [weak] booking_link: Make a Reservation View Menu — https://swiftsattic.com/reservations/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:53.624082+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 2cef21102d5c59cb37fc [strong] contact_channel: Public contact channel present — https://swiftsattic.com/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:53.624362+00:00; static_html)
-- eefe830408d8bc323959 [strong] booking_provider: https://www.opentable.com/restaurant/profile/76807/reserve?rid=76807&restref=76807 — https://www.opentable.com/restaurant/profile/76807/reserve?rid=76807&restref=76807 (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:55.111973+00:00; static_html)
-  - Limitation: Public link/widget detected; no reservation submitted or confirmation tested
-- 22ca809640696d32a527 [strong] contact_channel: Contact form present; not submitted — https://swiftsattic.com/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:53.628547+00:00; static_html)
-- ffc467e22de50c36097d [weak] structured_business_name: JSON-LD business/page name — https://swiftsattic.com/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:53.628865+00:00; static_html)
-- 69c160d1deb570d53f7a [weak] structured_business_name: JSON-LD business/page name — https://swiftsattic.com/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:53.628880+00:00; static_html)
-- 039d9d57ec7ddee6ba1a [strong] non_booking_widget: Gift Cards — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.225006+00:00; static_html)
-- a5a1adf425534981d76d [weak] booking_link: About About Us Our Family — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.225213+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 6ab6c4784f18b3df4392 [weak] booking_link: Contact Us — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.225382+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- fec7fe290e09f5279579 [weak] booking_link: Booking-related link — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.225441+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 7e677831c70c0404e5c6 [strong] contact_channel: Public contact channel present — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.225912+00:00; static_html)
-- 0ea844b337326effd16e [strong] booking_provider: &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/section&gt; — https://www.opentable.com/widget/reservation/loader?rid=76807&type=standard&theme=standard&iframe=true&overlay=false&domain=com&lang=en-US (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.225721+00:00; static_html)
-  - Limitation: Public link/widget detected; no reservation submitted or confirmation tested
-- 97fd29fcbcc8040d0c06 [weak] booking_link: Mailing List — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.225828+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 6af235c3453c15c2d325 [weak] booking_link: Contact — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.225896+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 1cc6d8d1a8602d839ce9 [weak] booking_link: Copyright © 2026. All Rights Reserved. Powered by Spillover | Accessibility Policy | Privacy Policy | Terms of Use — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.226307+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 210537e1463c57c3eae0 [strong] contact_channel: Contact form present; not submitted — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.230820+00:00; static_html)
-- 3d7019b80986f820bb8b [weak] structured_business_name: JSON-LD business/page name — https://swiftsattic.com/reservations/ (page: Reservations | Swift's Attic | Austin, TX; 2026-10-31T21:29:54.231130+00:00; static_html)
-- 88cd24bce42c7f60444a [strong] non_booking_widget: Gift Cards — https://swiftsattic.com/about/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:54.669955+00:00; static_html)
-- fade80008ab5f2d74097 [strong] contact_channel: Public contact channel present — https://swiftsattic.com/about/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:54.670379+00:00; static_html)
-- f30299a2671016aaf565 [strong] contact_channel: Contact form present; not submitted — https://swiftsattic.com/about/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:54.675265+00:00; static_html)
-- cf5dbedf7ebf74022e23 [strong] non_booking_widget: Gift Cards — https://swiftsattic.com/contact/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:55.111255+00:00; static_html)
-- b18eb6828d1e7e1f9ff8 [strong] contact_channel: Public contact channel present — https://swiftsattic.com/contact/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:55.111828+00:00; static_html)
-- 6be6fc42fbeabf9df72d [strong] contact_channel: Contact form present; not submitted — https://swiftsattic.com/contact/ (page: Swift's Attic | Austin, TX; 2026-10-31T21:29:55.117318+00:00; static_html)
-- c879fbb94bfc508e6fba [unknown] booking_target_unverified: inspection_blocked — https://www.opentable.com/restaurant/profile/76807/reserve?rid=76807&restref=76807 (page: unknown; 2026-10-31T21:30:09.403295+00:00; static_html)
-- 8f0ef75034cc0dccf740 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://swiftsattic.com/ (page: unknown; 2026-10-31T21:30:09.405040+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- OSM tag is a candidate; ownership still requires site/address confirmation
-
-## Lead 12: Eureka
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: http://eurekarestaurantgroup.com/blog/locations/austin/; discovery: likely
-- OSM source: https://www.openstreetmap.org/node/1481633376
-- Commercial score: 0/100; confidence: strong; coverage: partial
-- Sampled pages: 6 / found 66; homepage False; booking page True; FAQ False
-- External booking links checked: 0; manual review: False
-- Booking: detected; providers: SevenRooms
-- Policies: unknown
-- Collected: 2026-10-31T21:30:15.747064+00:00
-- Recommendation: No replacement proposal justified by available public evidence
-
-### Opportunities
-### Evidence
-- 427ea9e3784c7f7dfffe [weak] booking_link: Menu Reservations Order Online Find a Location Book an Event Whiskey Club — https://eurekarestaurantgroup.com/book-an-event (page: Menu - Austin | Eureka! Restaurants; 2026-10-31T21:30:15.488980+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- fd150457e2c5c8a4deec [weak] booking_link: Eureka! Austin 200 East 6th Street Austin , Texas 78701 Book an Event Get Directions (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=austin (page: Austin | Eureka! Restaurants; 2026-10-31T21:30:14.881799+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- e1c4b088bebf07495bfe [strong] contact_channel: Public contact channel present — https://eurekarestaurantgroup.com/locations/austin (page: Austin | Eureka! Restaurants; 2026-10-31T21:30:14.881915+00:00; static_html)
-- f8cb0e3fdf5f4c05fc0b [weak] ambiguous_widget: Order Online Reservations Delivery — https://order.toasttab.com/online/eureka-austin (page: Menu - Austin | Eureka! Restaurants; 2026-10-31T21:30:15.489309+00:00; static_html)
-  - Limitation: Provider domain alone does not establish purpose
-- 7639d3d166179e6912ef [strong] booking_provider: Booking URL in script configuration — https://www.sevenrooms.com/explore/eurekaaustin/reservations/create/search/ (page: Menu - Austin | Eureka! Restaurants; 2026-10-31T21:30:15.490280+00:00; static_html)
-  - Limitation: Script configuration observed; execution may fail
-- 1285da8b8ef8393151ce [strong] contact_channel: Public contact channel present — https://eurekarestaurantgroup.com/locations/austin (page: Austin | Eureka! Restaurants; 2026-10-31T21:30:14.882835+00:00; static_html)
-- 0ef4b10100e54f925ee8 [strong] booking_provider: Booking URL in script configuration — https://www.sevenrooms.com/explore/eurekasandiegosdsu/reservations/create/search/ (page: Menu - Austin | Eureka! Restaurants; 2026-10-31T21:30:15.492687+00:00; static_html)
-  - Limitation: Script configuration observed; execution may fail
-- 93c8575ed594792bbbc5 [weak] booking_link: Book an Event | Eureka! Restaurants — https://eurekarestaurantgroup.com/_next/static/chunks/pages/book-an-event-6ce158c21d02f8f4.js (page: Book an Event | Eureka! Restaurants; 2026-10-31T21:30:13.869390+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- f9f01c50336f49a14650 [strong] contact_channel: Public contact channel present — https://eurekarestaurantgroup.com/book-an-event (page: Book an Event | Eureka! Restaurants; 2026-10-31T21:30:13.535537+00:00; static_html)
-- 022ab012b6fa1388b422 [strong] booking_provider: Booking URL in script configuration — https://www.sevenrooms.com/explore/eurekamountainview/reservations/create/search/ (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.465743+00:00; static_html)
-  - Limitation: Script configuration observed; execution may fail
-- ff9cc5b32d3be0f434a4 [strong] booking_provider: Booking URL in script configuration — https://www.sevenrooms.com/explore/eurekatempe/reservations/create/search/ (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.466469+00:00; static_html)
-  - Limitation: Script configuration observed; execution may fail
-- dfe691cd4e20757e1fa4 [strong] booking_provider: Booking URL in script configuration — https://www.sevenrooms.com/explore/eurekaclovis/reservations/create/search/ (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.466990+00:00; static_html)
-  - Limitation: Script configuration observed; execution may fail
-- 7b6804837643ebde9c70 [strong] contact_channel: Public contact channel present — https://eurekarestaurantgroup.com/book-an-event?location=austin (page: Book an Event | Eureka! Restaurants; 2026-10-31T21:30:13.869953+00:00; static_html)
-- f10367e931ca48e82ce9 [weak] booking_link: Tempe Get Directions Book an Event \[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=tempe (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.456704+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 07ba72f3ec2e736162ff [strong] contact_channel: Public contact channel present — https://eurekarestaurantgroup.com/locations (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.461470+00:00; static_html)
-- 9ed848d2d1ca55486908 [weak] booking_link: Aliso Viejo Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=aliso-viejo (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.456878+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- f0046bc78ba074939597 [weak] booking_link: Bakersfield Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=bakersfield (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.457047+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 3ccccf77f3b6896d903b [weak] booking_link: Berkeley Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=berkeley (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.457215+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- f8b7300b1c8de5761a08 [weak] booking_link: Carlsbad Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=carlsbad (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.457426+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 674e2226d5a70f5e8677 [weak] booking_link: Cerritos Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=cerritos (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.457595+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- b91e2041017ee08bb70d [weak] booking_link: Claremont Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=claremont (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.457763+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 152cec08d6390e498385 [weak] booking_link: Clovis Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=clovis (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.457922+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 18f7c900baf1bda041db [weak] booking_link: Concord Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=concord (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.458085+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 8e90c03c2014b09aa006 [weak] booking_link: Cupertino Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=cupertino (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.458245+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 0fcad0ea60b856549dd0 [weak] booking_link: Fresno Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=fresno (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.458425+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 4cf4476dbcd2fd18d143 [weak] booking_link: Hawthorne Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=hawthorne-tasting-kitchen (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.458583+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- c6788ff472a0d65af4ac [weak] booking_link: Indian Wells Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=indian-wells (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.458751+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- edbfb2d2026f993e43f3 [weak] booking_link: Irvine Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=irvine (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.458894+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 1fce9c06062c38336b70 [weak] booking_link: Mountain View Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=mountain-view (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.459057+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 39e6c86142f61f1015d2 [weak] booking_link: Ontario Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=ontario-ca (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.459217+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 176bb64d151791d4e4a1 [weak] booking_link: Redlands Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=redlands (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.459389+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- b063550b31a09827501e [weak] booking_link: Roseville Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=roseville (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.459532+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 45e6d3e5654073478aad [weak] booking_link: San Diego (SDSU) Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=san-diego-sdsu (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.459819+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- d6cd8e8ac146814ab86c [weak] booking_link: San Diego (UTC) Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=san-diego-utc (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.459980+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 2da34744e8e7146189c3 [weak] booking_link: San Luis Obispo Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=san-luis-obispo (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.460154+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 14ba80e880607f350658 [weak] booking_link: Santa Barbara Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=santa-barbara (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.460314+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 8167a7954f52b17ed82e [weak] booking_link: Santa Clara Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=santa-clara (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.460492+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 8141599fd8c72fa5f6bb [weak] booking_link: Woodland Hills Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=woodland-hills (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.460637+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 9caa971dcb425ec3eb01 [weak] booking_link: Boise Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=boise (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.460791+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- edc32569c5b460c32063 [weak] booking_link: Henderson Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=henderson (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.460961+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- ae125d8523abb7c16722 [weak] booking_link: Las Vegas Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=las-vegas (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.461123+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- 5c33c8b60220cf36ebfc [weak] booking_link: Seattle Get Directions Book an Event (\[phone redacted\] — https://eurekarestaurantgroup.com/book-an-event?location=seattle-u-village (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.461454+00:00; static_html)
-  - Limitation: Link intent only; functionality requires target inspection
-- d986a56fcc8c9ed0fb38 [strong] contact_channel: Public contact channel present — https://eurekarestaurantgroup.com/locations (page: Locations | Eureka! Restaurants; 2026-10-31T21:30:14.461675+00:00; static_html)
-- c2f52a619aa0b9ac065f [strong] contact_channel: Public contact channel present — https://eurekarestaurantgroup.com/locations/austin/menu?page=drinks (page: Menu - Austin | Eureka! Restaurants; 2026-10-31T21:30:15.489582+00:00; static_html)
-- fd632fb4ec6f2d371727 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://eurekarestaurantgroup.com/locations/austin (page: unknown; 2026-10-31T21:30:15.746977+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- OSM tag is a candidate; ownership still requires site/address confirmation
-
-## Lead 14: Péché
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: https://www.pecheaustin.com/; discovery: likely
-- OSM source: https://www.openstreetmap.org/way/328631276
-- Commercial score: 0/100; confidence: strong; coverage: partial
+- Category: barbershop; ownership: unknown (unknown)
+- Official website: https://deseosalon.com/; discovery: likely
+- OSM source: https://www.openstreetmap.org/node/3857696606
+- Commercial score: 23/100; confidence: weak; coverage: partial
 - Sampled pages: 3 / found 3; homepage True; booking page False; FAQ False
-- External booking links checked: 0; manual review: False
-- Booking: detected; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:30:19.594026+00:00
-- Recommendation: No replacement proposal justified by available public evidence
-
-### Opportunities
-### Evidence
-- cee592b6916693b88387 [strong] contact_channel: Public contact channel present — https://www.pecheaustin.com/ (page: Peche; 2026-10-31T21:30:18.689404+00:00; static_html)
-- b93257cfb097c712c55c [strong] contact_channel: Public contact channel present — https://www.pecheaustin.com/ (page: Peche; 2026-10-31T21:30:18.689273+00:00; static_html)
-- ea9fbe1cacc785e425c8 [strong] booking_form: Public booking controls: date, time, guests — https://www.pecheaustin.com/ (page: Peche; 2026-10-31T21:30:18.691030+00:00; static_html)
-  - Limitation: Controls observed only; submission and confirmation not tested
-- 5031dc825e1efea4bc11 [weak] structured_business_name: JSON-LD business/page name — https://www.pecheaustin.com/ (page: Peche; 2026-10-31T21:30:18.691675+00:00; static_html)
-- 84ba5779d36cd46ae5f7 [strong] contact_channel: Public contact channel present — https://www.pecheaustin.com/about/ (page: About Peche | Peche; 2026-10-31T21:30:19.020006+00:00; static_html)
-- 9e47163de75b072a9e44 [strong] contact_channel: Public contact channel present — https://www.pecheaustin.com/about/ (page: About Peche | Peche; 2026-10-31T21:30:19.019797+00:00; static_html)
-- 7ef87230d052ea8dacc6 [strong] booking_form: Public booking controls: date, time, guests — https://www.pecheaustin.com/about/ (page: About Peche | Peche; 2026-10-31T21:30:19.021522+00:00; static_html)
-  - Limitation: Controls observed only; submission and confirmation not tested
-- f0c13ccb24497303babb [weak] structured_business_name: JSON-LD business/page name — https://www.pecheaustin.com/about/ (page: About Peche | Peche; 2026-10-31T21:30:19.021847+00:00; static_html)
-- 437b46c5f7c24685f3dd [strong] contact_channel: Public contact channel present — https://www.pecheaustin.com/contact/ (page: Contact | Peche; 2026-10-31T21:30:19.337526+00:00; static_html)
-- 527e84a730ac8e136acb [strong] contact_channel: Public contact channel present — https://www.pecheaustin.com/contact/ (page: Contact | Peche; 2026-10-31T21:30:19.337410+00:00; static_html)
-- 5a9cf940591e71499d77 [strong] booking_form: Public booking controls: date, time, guests — https://www.pecheaustin.com/contact/ (page: Contact | Peche; 2026-10-31T21:30:19.339020+00:00; static_html)
-  - Limitation: Controls observed only; submission and confirmation not tested
-- 45436d163735321fce07 [strong] contact_channel: Contact form present; not submitted — https://www.pecheaustin.com/contact/ (page: Contact | Peche; 2026-10-31T21:30:19.339334+00:00; static_html)
-- 1368ed0bb40f8175b83d [weak] structured_business_name: JSON-LD business/page name — https://www.pecheaustin.com/contact/ (page: Contact | Peche; 2026-10-31T21:30:19.339658+00:00; static_html)
-- 404bfcd6cfba94fb041d [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.pecheaustin.com/ (page: unknown; 2026-10-31T21:30:19.593974+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- OSM tag is a candidate; ownership still requires site/address confirmation
-
-# UNABLE TO INSPECT
-
-## Lead 1: Modern Market Eatery
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: unknown; discovery: not_found
-- OSM source: https://www.openstreetmap.org/way/1507549539
-- Commercial score: 0/100; confidence: unknown; coverage: none
-- Sampled pages: 0 / found 0; homepage False; booking page False; FAQ False
 - External booking links checked: 0; manual review: True
 - Booking: unknown; providers: none detected (not proof of absence)
 - Policies: unknown
-- Collected: 2026-10-31T21:29:40.129955+00:00
+- Collected: 2026-11-01T10:45:11.355832+00:00
 - Recommendation: Manually verify business identity, workflow and decision maker
 
-### Opportunities
-### Evidence
-- f5c41c16b84107305252 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/way/1507549539 (page: unknown; 2026-10-31T21:29:40.129265+00:00; static_html)
-  - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
-  - Limitation: Branch/address matching must be verified before outreach
-- 3a4965f3b4c42ddb7771 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/way/1507549539 (page: unknown; 2026-10-31T21:29:40.129955+00:00; local_classifier)
-  - Limitation: Derived classification; no additional site inspection
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Search is limited to public structured sources; not_found does not mean no website exists
-- Branch/address matching must be verified before outreach
-
-## Lead 2: Punch Bowl Social
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: unknown; discovery: not_found
-- OSM source: https://www.openstreetmap.org/way/1020754976
-- Commercial score: 0/100; confidence: unknown; coverage: none
-- Sampled pages: 0 / found 0; homepage False; booking page False; FAQ False
-- External booking links checked: 0; manual review: True
-- Booking: unknown; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:29:40.911706+00:00
-- Recommendation: Manually verify business identity, workflow and decision maker
+- Outside requested report filters; evidence retained for research.
 
 ### Opportunities
+- appointment_scheduling [hypothesis, weak]: Discuss whether online scheduling fits the owner’s policy and existing workflow; evidence: fbe87443b081530d5843
 ### Evidence
-- 97456e6efdf46bae8cf6 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/way/1020754976 (page: unknown; 2026-10-31T21:29:40.911607+00:00; static_html)
-  - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
-  - Limitation: Branch/address matching must be verified before outreach
-- 2bebcaa97e3e6ff115a1 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/way/1020754976 (page: unknown; 2026-10-31T21:29:40.911706+00:00; local_classifier)
-  - Limitation: Derived classification; no additional site inspection
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Search is limited to public structured sources; not_found does not mean no website exists
-- Branch/address matching must be verified before outreach
-
-## Lead 3: CAVA
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: http://cava.com/; discovery: likely
-- OSM source: https://www.openstreetmap.org/node/11242814774
-- Commercial score: 0/100; confidence: unknown; coverage: none
-- Sampled pages: 0 / found 1; homepage False; booking page False; FAQ False
-- External booking links checked: 0; manual review: True
-- Booking: unknown; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:29:41.527318+00:00
-- Recommendation: Manually verify business identity, workflow and decision maker
-
-### Opportunities
-### Evidence
-- cf4bc91481e3c4e6dff8 [unknown] inspection_blocked: inspection_blocked — http://cava.com/ (page: unknown; 2026-10-31T21:29:41.526946+00:00; static_html)
-  - Limitation: Cannot infer business deficiencies from access failure
-- 69a54be940119ebe26db [unknown] business_ownership: Brand identifier exists; size and ownership still require verification — https://www.openstreetmap.org/node/11242814774 (page: unknown; 2026-10-31T21:29:41.527282+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- OSM tag is a candidate; ownership still requires site/address confirmation
-
-## Lead 5: Ruth's Chris Steak House
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: http://www.ruthschris.com/; discovery: likely
-- OSM source: https://www.openstreetmap.org/node/4948072426
-- Commercial score: 0/100; confidence: unknown; coverage: none
-- Sampled pages: 0 / found 1; homepage False; booking page False; FAQ False
-- External booking links checked: 0; manual review: True
-- Booking: unknown; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:29:50.092593+00:00
-- Recommendation: Manually verify business identity, workflow and decision maker
-
-### Opportunities
-### Evidence
-- e158106e87d5162ec5c7 [unknown] inspection_blocked: inspection_blocked — http://www.ruthschris.com/ (page: unknown; 2026-10-31T21:29:50.092325+00:00; static_html)
-  - Limitation: Cannot infer business deficiencies from access failure
-- 4fee51055ff4dccd0fbe [unknown] business_ownership: Brand identifier exists; size and ownership still require verification — https://www.openstreetmap.org/node/4948072426 (page: unknown; 2026-10-31T21:29:50.092560+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Search is limited to public structured sources; not_found does not mean no website exists
-- Branch/address matching must be verified before outreach
-
-## Lead 6: Lonesome Dove Bistro
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: https://lonesomedoveaustin.com/; discovery: likely
-- OSM source: https://www.openstreetmap.org/node/4948072436
-- Commercial score: 0/100; confidence: unknown; coverage: none
-- Sampled pages: 0 / found 1; homepage False; booking page False; FAQ False
-- External booking links checked: 0; manual review: True
-- Booking: unknown; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:29:50.875048+00:00
-- Recommendation: Manually verify business identity, workflow and decision maker
-
-### Opportunities
-### Evidence
-- ef71747cb5a36e96e62a [unknown] inspection_blocked: inspection_blocked — https://lonesomedoveaustin.com/ (page: unknown; 2026-10-31T21:29:50.874571+00:00; static_html)
-  - Limitation: Cannot infer business deficiencies from access failure
-- 930560dc384f35cf5221 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/4948072436 (page: unknown; 2026-10-31T21:29:50.875013+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- OSM tag is a candidate; ownership still requires site/address confirmation
-
-## Lead 7: Wee's Cozy Kitchen
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: unknown; discovery: not_found
-- OSM source: https://www.openstreetmap.org/node/11872813199
-- Commercial score: 0/100; confidence: unknown; coverage: none
-- Sampled pages: 0 / found 0; homepage False; booking page False; FAQ False
-- External booking links checked: 0; manual review: True
-- Booking: unknown; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:29:51.640999+00:00
-- Recommendation: Manually verify business identity, workflow and decision maker
-
-### Opportunities
-### Evidence
-- a6295682f979a02f2dbb [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/node/11872813199 (page: unknown; 2026-10-31T21:29:51.640898+00:00; static_html)
-  - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
-  - Limitation: Branch/address matching must be verified before outreach
-- 929295038db26875155f [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/11872813199 (page: unknown; 2026-10-31T21:29:51.640999+00:00; local_classifier)
-  - Limitation: Derived classification; no additional site inspection
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Search is limited to public structured sources; not_found does not mean no website exists
-- Branch/address matching must be verified before outreach
-
-## Lead 8: Gina's on Congress
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: https://www.ginasoncongress.com/; discovery: likely
-- OSM source: https://www.openstreetmap.org/way/1021167044
-- Commercial score: 0/100; confidence: unknown; coverage: none
-- Sampled pages: 0 / found 1; homepage False; booking page False; FAQ False
-- External booking links checked: 0; manual review: True
-- Booking: unknown; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:29:52.349985+00:00
-- Recommendation: Manually verify business identity, workflow and decision maker
-
-### Opportunities
-### Evidence
-- d989c17714a3e14926c4 [unknown] inspection_blocked: inspection_blocked — https://www.ginasoncongress.com/ (page: unknown; 2026-10-31T21:29:52.349562+00:00; static_html)
-  - Limitation: Cannot infer business deficiencies from access failure
-- dd5900121fcc914d60b1 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/way/1021167044 (page: unknown; 2026-10-31T21:29:52.349947+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- OSM tag is a candidate; ownership still requires site/address confirmation
-
-## Lead 11: Caroline
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: https://www.carolinerestaurant.com/caroline; discovery: likely
-- OSM source: https://www.openstreetmap.org/node/10281193544
-- Commercial score: 0/100; confidence: unknown; coverage: none
-- Sampled pages: 0 / found 1; homepage False; booking page False; FAQ False
-- External booking links checked: 0; manual review: True
-- Booking: unknown; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:30:12.104739+00:00
-- Recommendation: Manually verify business identity, workflow and decision maker
-
-### Opportunities
-### Evidence
-- 23f545bf6b35a962d0ae [unknown] inspection_blocked: inspection_blocked — https://www.carolinerestaurant.com/caroline (page: unknown; 2026-10-31T21:30:12.104522+00:00; static_html)
-  - Limitation: Cannot infer business deficiencies from access failure
-- 8026dcae306be27c7989 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/10281193544 (page: unknown; 2026-10-31T21:30:12.104705+00:00; static_html)
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- OSM tag is a candidate; ownership still requires site/address confirmation
-
-## Lead 15: Marisco Grill
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: unknown; discovery: not_found
-- OSM source: https://www.openstreetmap.org/node/1481633362
-- Commercial score: 0/100; confidence: unknown; coverage: none
-- Sampled pages: 0 / found 0; homepage False; booking page False; FAQ False
-- External booking links checked: 0; manual review: True
-- Booking: unknown; providers: none detected (not proof of absence)
-- Policies: unknown
-- Collected: 2026-10-31T21:30:20.379460+00:00
-- Recommendation: Manually verify business identity, workflow and decision maker
-
-### Opportunities
-### Evidence
-- c7c2d0440ed0518ae2e3 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/node/1481633362 (page: unknown; 2026-10-31T21:30:20.379381+00:00; static_html)
-  - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
-  - Limitation: Branch/address matching must be verified before outreach
-- f7f217181de4cded8bc4 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/1481633362 (page: unknown; 2026-10-31T21:30:20.379460+00:00; local_classifier)
-  - Limitation: Derived classification; no additional site inspection
-### Scoring and limitations
-- problem_confirmation: 0/25
-- commercial_value: 0/20
-- service_fit: 0/20
-- business_accessibility: 0/15
-- evidence_quality: 0/10
-- implementation_ease: 0/10
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
-- No form submitted, payment made or booking confirmation tested
-- Search is limited to public structured sources; not_found does not mean no website exists
-- Branch/address matching must be verified before outreach
-
-# EXCLUDED / LOW PRIORITY
-
-## Lead 4: Velvet Taco
-- Country / city: USA / Austin, TX
-- Category: restaurant; ownership: unknown (unknown)
-- Official website: https://www.velvettaco.com/location/6th-congress/; discovery: verified
-- OSM source: https://www.openstreetmap.org/node/9136489517
-- Commercial score: 0/100; confidence: strong; coverage: partial
-- Sampled pages: 6 / found 6; homepage False; booking page False; FAQ True
-- External booking links checked: 0; manual review: True
-- Booking: policy_no_reservations; providers: none detected (not proof of absence)
-- Policies: walk_ins_only
-- Collected: 2026-10-31T21:31:59.957514+00:00
-- Recommendation: Respect walk-in policy; do not propose booking without an expressed need
-
-### Opportunities
-### Evidence
-- 9d11fd375213d1d790b6 [strong] contact_channel: Public contact channel present — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:55.307930+00:00; static_html)
-- faae64c54eb22b210b02 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:55.312601+00:00; static_html)
-- 9a56f4401a93bf1d5541 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:55.312638+00:00; static_html)
-- 2968cc5a392d2854a38c [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:55.312655+00:00; static_html)
-- e669e31d4283ae6ff5c3 [strong] booking_policy: first come, first serve — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:31:57.455291+00:00; static_html)
-- 9d7f790ba331ebaef562 [strong] contact_channel: Public contact channel present — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:31:57.460688+00:00; static_html)
-- fa775020c8dfa90366c5 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:31:57.468265+00:00; static_html)
-- 2a3fefcd0be98daa9858 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/faq/ (page: FAQ - Velvet Taco; 2026-10-31T21:31:57.468301+00:00; static_html)
-- 1132a3f61b0adc9e88ff [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/about-us/ (page: About Us | Tacos Without Borders | Velvet Taco; 2026-10-31T21:31:58.022252+00:00; static_html)
-- c79a0af6e30f85dfa9bf [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/about-us/ (page: About Us | Tacos Without Borders | Velvet Taco; 2026-10-31T21:31:58.022296+00:00; static_html)
-- fb068b18dfb8f34514f6 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/coming-soon-locations/ (page: Coming Soon Locations - Velvet Taco; 2026-10-31T21:31:58.608190+00:00; static_html)
-- 08af4b15a3b25f268b8d [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/coming-soon-locations/ (page: Coming Soon Locations - Velvet Taco; 2026-10-31T21:31:58.608230+00:00; static_html)
-- a79967bb9b02c50c367d [strong] contact_channel: Contact form present; not submitted — https://www.velvettaco.com/contact/ (page: Contact - Velvet Taco; 2026-10-31T21:31:59.170727+00:00; static_html)
-- ca7f9e37b2f8494581f5 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/contact/ (page: Contact - Velvet Taco; 2026-10-31T21:31:59.170980+00:00; static_html)
-- 2d686dfceade328218b8 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/contact/ (page: Contact - Velvet Taco; 2026-10-31T21:31:59.171009+00:00; static_html)
-- 74df0fda92553a4cbc6b [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/locations/ (page: Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco; 2026-10-31T21:31:59.696220+00:00; static_html)
-- 61a4644060d7b4f219f2 [weak] structured_business_name: JSON-LD business/page name — https://www.velvettaco.com/locations/ (page: Locations | Best Tacos in Texas, Georgia, Illinois | Open for Dine-In! | Velvet Taco; 2026-10-31T21:31:59.696261+00:00; static_html)
-- 2d45ab867c9c85ec69be [weak] booking_not_detected: No booking controls detected on 6 sampled pages — https://www.velvettaco.com/location/6th-congress/ (page: unknown; 2026-10-31T21:31:59.950112+00:00; static_html)
+- 36ecffd2124ec014b294 [weak] booking_link: Book Now — https://deseosalon.com/ (page: Deseosalon |; 2026-11-01T10:45:11.083164+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- f7e8eee4d187e9188386 [weak] booking_link: Book Appointment — https://deseosalon.com/ (page: Deseosalon |; 2026-11-01T10:45:11.083694+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- b63c56a9158184c147de [weak] booking_link: Book Now — https://deseosalon.com/contact/ (page: Contact | Deseosalon; 2026-11-01T10:45:11.354190+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 326f95c0c5eaa11d716a [weak] booking_link: Book Online Appointment — https://deseosalon.com/contact/ (page: Contact | Deseosalon; 2026-11-01T10:45:11.354284+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 08c4b29fc1ea1dcc2cb3 [weak] booking_link: Book Appointment — https://deseosalon.com/contact/ (page: Contact | Deseosalon; 2026-11-01T10:45:11.354326+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- ae2b8da0fe83ae24cd5c [weak] booking_link: Book Now — https://deseosalon.com/services/ (page: Services | Deseosalon; 2026-11-01T10:45:10.552686+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- 3af7cac3a78bb14162af [weak] booking_link: Book Appointment — https://deseosalon.com/services/ (page: Services | Deseosalon; 2026-11-01T10:45:10.552747+00:00; static_html)
+  - Limitation: Link intent only; functionality requires target inspection
+- fbe87443b081530d5843 [weak] booking_not_detected: No booking controls detected on 3 sampled pages — https://deseosalon.com/ (page: unknown; 2026-11-01T10:45:11.355230+00:00; static_html)
   - Limitation: Absence of detection is not absence of functionality
-- 5e97120f0cd05fba0cb6 [strong] official_website_match: Business name and OSM street/house number match public site — https://www.velvettaco.com/location/6th-congress/ (page: Locations | Get the Best Tacos in Austin, TX | Open for Dine-In on 6th & Congress | Velvet Taco; 2026-10-31T21:31:59.952670+00:00; static_html)
-- 7e1a312dc2793f7b62f5 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.velvettaco.com/location/6th-congress/ (page: unknown; 2026-10-31T21:31:59.957450+00:00; static_html)
+- f96fb4234e314da46273 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://deseosalon.com/ (page: unknown; 2026-11-01T10:45:11.355793+00:00; static_html)
+### Scoring and limitations
+- problem_confirmation: 2/25
+- commercial_value: 6/20
+- service_fit: 8/20
+- business_accessibility: 2/15
+- evidence_quality: 2/10
+- implementation_ease: 3/10
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- OSM tag is a candidate; ownership still requires site/address confirmation
+
+## Lead 85: Tsunami Salon
+- Country / city: USA / Austin, TX
+- Category: barbershop; ownership: unknown (unknown)
+- Official website: http://tsunamisalon.com/; discovery: likely
+- OSM source: https://www.openstreetmap.org/node/3857696612
+- Commercial score: 23/100; confidence: weak; coverage: partial
+- Sampled pages: 3 / found 3; homepage True; booking page False; FAQ False
+- External booking links checked: 0; manual review: True
+- Booking: unknown; providers: none detected (not proof of absence)
+- Policies: unknown
+- Collected: 2026-11-01T10:45:13.700594+00:00
+- Recommendation: Manually verify business identity, workflow and decision maker
+
+- Outside requested report filters; evidence retained for research.
+
+### Opportunities
+- appointment_scheduling [hypothesis, weak]: Discuss whether online scheduling fits the owner’s policy and existing workflow; evidence: a6b8caf9583d1b813e2f
+### Evidence
+- a6b8caf9583d1b813e2f [weak] booking_not_detected: No booking controls detected on 3 sampled pages — http://tsunamisalon.com/ (page: unknown; 2026-11-01T10:45:13.700126+00:00; static_html)
+  - Limitation: Absence of detection is not absence of functionality
+- bbd5d970ae39e3be1d6f [unknown] business_ownership: Ownership cannot be inferred from missing locations page — http://tsunamisalon.com/ (page: unknown; 2026-11-01T10:45:13.700563+00:00; static_html)
+### Scoring and limitations
+- problem_confirmation: 2/25
+- commercial_value: 6/20
+- service_fit: 8/20
+- business_accessibility: 2/15
+- evidence_quality: 2/10
+- implementation_ease: 3/10
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- OSM tag is a candidate; ownership still requires site/address confirmation
+
+## Lead 76: Charlie's Hair Styles
+- Country / city: USA / Austin, TX
+- Category: barbershop; ownership: unknown (unknown)
+- Official website: unknown; discovery: not_found
+- OSM source: https://www.openstreetmap.org/node/2675168099
+- Commercial score: 0/100; confidence: unknown; coverage: none
+- Sampled pages: 0 / found 0; homepage False; booking page False; FAQ False
+- External booking links checked: 0; manual review: True
+- Booking: unknown; providers: none detected (not proof of absence)
+- Policies: unknown
+- Collected: 2026-11-01T10:44:44.459545+00:00
+- Recommendation: Manually verify business identity, workflow and decision maker
+
+- Outside requested report filters; evidence retained for research.
+
+### Opportunities
+### Evidence
+- af7dca08e9a3ec796a93 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/node/2675168099 (page: unknown; 2026-11-01T10:44:44.458657+00:00; static_html)
+  - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
+  - Limitation: Branch/address matching must be verified before outreach
+- 2bf254881974f563cfdf [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/2675168099 (page: unknown; 2026-11-01T10:44:44.459508+00:00; static_html)
 ### Scoring and limitations
 - problem_confirmation: 0/25
 - commercial_value: 0/20
@@ -671,7 +280,182 @@ None in this scan.
 - No form submitted, payment made or booking confirmation tested
 - Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
 - No form submitted, payment made or booking confirmation tested
-- OSM tag is a candidate; ownership still requires site/address confirmation
+- Search is limited to public structured sources; not_found does not mean no website exists
+- Branch/address matching must be verified before outreach
+
+## Lead 77: Finley's Barber Shop
+- Country / city: USA / Austin, TX
+- Category: barbershop; ownership: unknown (unknown)
+- Official website: unknown; discovery: not_found
+- OSM source: https://www.openstreetmap.org/node/3245051658
+- Commercial score: 0/100; confidence: unknown; coverage: none
+- Sampled pages: 0 / found 0; homepage False; booking page False; FAQ False
+- External booking links checked: 0; manual review: True
+- Booking: unknown; providers: none detected (not proof of absence)
+- Policies: unknown
+- Collected: 2026-11-01T10:44:45.236367+00:00
+- Recommendation: Manually verify business identity, workflow and decision maker
+
+- Outside requested report filters; evidence retained for research.
+
+### Opportunities
+### Evidence
+- cb93fd1b99fb4c0b1325 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/node/3245051658 (page: unknown; 2026-11-01T10:44:45.236245+00:00; static_html)
+  - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
+  - Limitation: Branch/address matching must be verified before outreach
+- f64b2f6e7327c0730555 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/3245051658 (page: unknown; 2026-11-01T10:44:45.236316+00:00; static_html)
+### Scoring and limitations
+- problem_confirmation: 0/25
+- commercial_value: 0/20
+- service_fit: 0/20
+- business_accessibility: 0/15
+- evidence_quality: 0/10
+- implementation_ease: 0/10
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Search is limited to public structured sources; not_found does not mean no website exists
+- Branch/address matching must be verified before outreach
+
+## Lead 78: Drybar
+- Country / city: USA / Austin, TX
+- Category: barbershop; ownership: unknown (unknown)
+- Official website: https://www.thedrybar.com; discovery: likely
+- OSM source: https://www.openstreetmap.org/node/8858558304
+- Commercial score: 0/100; confidence: unknown; coverage: none
+- Sampled pages: 0 / found 1; homepage False; booking page False; FAQ False
+- External booking links checked: 0; manual review: True
+- Booking: unknown; providers: none detected (not proof of absence)
+- Policies: unknown
+- Collected: 2026-11-01T10:44:46.227534+00:00
+- Recommendation: Manually verify business identity, workflow and decision maker
+
+- Outside requested report filters; evidence retained for research.
+
+### Opportunities
+### Evidence
+- 37e039227b0b52e5385a [unknown] inspection_blocked: inspection_blocked — https://www.thedrybar.com (page: unknown; 2026-11-01T10:44:46.227074+00:00; static_html)
+  - Limitation: Cannot infer business deficiencies from access failure
+- 82e245fdfa735d39a3b7 [unknown] business_ownership: Brand identifier exists; size and ownership still require verification — https://www.openstreetmap.org/node/8858558304 (page: unknown; 2026-11-01T10:44:46.227501+00:00; static_html)
+### Scoring and limitations
+- problem_confirmation: 0/25
+- commercial_value: 0/20
+- service_fit: 0/20
+- business_accessibility: 0/15
+- evidence_quality: 0/10
+- implementation_ease: 0/10
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Search is limited to public structured sources; not_found does not mean no website exists
+- Branch/address matching must be verified before outreach
+
+## Lead 80: Wild Orchid Salon
+- Country / city: USA / Austin, TX
+- Category: barbershop; ownership: unknown (unknown)
+- Official website: unknown; discovery: not_found
+- OSM source: https://www.openstreetmap.org/node/11192190240
+- Commercial score: 0/100; confidence: unknown; coverage: none
+- Sampled pages: 0 / found 0; homepage False; booking page False; FAQ False
+- External booking links checked: 0; manual review: True
+- Booking: unknown; providers: none detected (not proof of absence)
+- Policies: unknown
+- Collected: 2026-11-01T10:44:56.347758+00:00
+- Recommendation: Manually verify business identity, workflow and decision maker
+
+- Outside requested report filters; evidence retained for research.
+
+### Opportunities
+### Evidence
+- c23efcabf057e9c52b9a [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/node/11192190240 (page: unknown; 2026-11-01T10:44:56.347663+00:00; static_html)
+  - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
+  - Limitation: Branch/address matching must be verified before outreach
+- f1bc1c4d5282c71a84f0 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/11192190240 (page: unknown; 2026-11-01T10:44:56.347727+00:00; static_html)
+### Scoring and limitations
+- problem_confirmation: 0/25
+- commercial_value: 0/20
+- service_fit: 0/20
+- business_accessibility: 0/15
+- evidence_quality: 0/10
+- implementation_ease: 0/10
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Search is limited to public structured sources; not_found does not mean no website exists
+- Branch/address matching must be verified before outreach
+
+## Lead 81: Hair House
+- Country / city: USA / Austin, TX
+- Category: barbershop; ownership: unknown (unknown)
+- Official website: unknown; discovery: not_found
+- OSM source: https://www.openstreetmap.org/node/13853332623
+- Commercial score: 0/100; confidence: unknown; coverage: none
+- Sampled pages: 0 / found 0; homepage False; booking page False; FAQ False
+- External booking links checked: 0; manual review: True
+- Booking: unknown; providers: none detected (not proof of absence)
+- Policies: unknown
+- Collected: 2026-11-01T10:44:57.159874+00:00
+- Recommendation: Manually verify business identity, workflow and decision maker
+
+- Outside requested report filters; evidence retained for research.
+
+### Opportunities
+### Evidence
+- e2fff27551649a571595 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/node/13853332623 (page: unknown; 2026-11-01T10:44:57.159799+00:00; static_html)
+  - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
+  - Limitation: Branch/address matching must be verified before outreach
+- db4b4cacccdff55ad3f9 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/13853332623 (page: unknown; 2026-11-01T10:44:57.159851+00:00; static_html)
+### Scoring and limitations
+- problem_confirmation: 0/25
+- commercial_value: 0/20
+- service_fit: 0/20
+- business_accessibility: 0/15
+- evidence_quality: 0/10
+- implementation_ease: 0/10
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Search is limited to public structured sources; not_found does not mean no website exists
+- Branch/address matching must be verified before outreach
+
+## Lead 82: Crimson
+- Country / city: USA / Austin, TX
+- Category: barbershop; ownership: unknown (unknown)
+- Official website: unknown; discovery: not_found
+- OSM source: https://www.openstreetmap.org/node/13798946493
+- Commercial score: 0/100; confidence: unknown; coverage: none
+- Sampled pages: 0 / found 0; homepage False; booking page False; FAQ False
+- External booking links checked: 0; manual review: True
+- Booking: unknown; providers: none detected (not proof of absence)
+- Policies: unknown
+- Collected: 2026-11-01T10:44:57.971838+00:00
+- Recommendation: Manually verify business identity, workflow and decision maker
+
+- Outside requested report filters; evidence retained for research.
+
+### Opportunities
+### Evidence
+- d268d7ea0f68d91b3870 [unknown] official_website_not_verified: No verified official website found in checked sources — https://www.openstreetmap.org/node/13798946493 (page: unknown; 2026-11-01T10:44:57.971764+00:00; static_html)
+  - Limitation: Search is limited to public structured sources; not_found does not mean no website exists
+  - Limitation: Branch/address matching must be verified before outreach
+- f593e7971a6eb9528378 [unknown] business_ownership: Ownership cannot be inferred from missing locations page — https://www.openstreetmap.org/node/13798946493 (page: unknown; 2026-11-01T10:44:57.971813+00:00; static_html)
+### Scoring and limitations
+- problem_confirmation: 0/25
+- commercial_value: 0/20
+- service_fit: 0/20
+- business_accessibility: 0/15
+- evidence_quality: 0/10
+- implementation_ease: 0/10
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Internal reminders, notifications, integrations and customer workflow cannot be established from public pages
+- No form submitted, payment made or booking confirmation tested
+- Search is limited to public structured sources; not_found does not mean no website exists
+- Branch/address matching must be verified before outreach
 
 # Report limitations
 - Public observations only; no internal workflow assumptions
