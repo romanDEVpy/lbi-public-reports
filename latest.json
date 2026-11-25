@@ -1,7 +1,7 @@
 {
   "report_schema_version": "2.0",
   "scan_id": 13,
-  "generated_at": "2026-11-25T12:45:41.933234+00:00",
+  "generated_at": "2026-11-25T13:00:48.316671+00:00",
   "data_collected_at": "2026-11-01T13:58:16.470408+00:00",
   "source_attribution": "© OpenStreetMap contributors — ODbL; public business pages; Wikidata (CC0)",
   "inspection_summary": {
@@ -27516,5 +27516,5 @@
   ],
   "notice": "An undetected feature is not a verified deficiency.",
   "attribution": "© OpenStreetMap contributors — ODbL",
-  "mirror_published_at": "2026-11-25T12:45:41.946059+00:00"
+  "mirror_published_at": "2026-11-25T13:00:48.329048+00:00"
 }
