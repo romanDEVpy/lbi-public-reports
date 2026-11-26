@@ -1,7 +1,7 @@
 # Local Business Intelligence — latest report
 
 Schema: 2.0; scan: 13
-Report generated (UTC): 2026-11-26T08:46:14.887928+00:00
+Report generated (UTC): 2026-11-26T09:01:15.138452+00:00
 Data collection completed (UTC): 2026-11-01T13:58:16.470408+00:00
 Data: © OpenStreetMap contributors (ODbL) — https://www.openstreetmap.org/copyright
 **Caution:** An undetected feature is not a verified deficiency. Scores are not buying probabilities.
